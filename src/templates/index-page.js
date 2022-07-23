@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Topbar from "../components/Topbar";
+import TopbarOnlyText from "../components/TopbarOnlyText";
 import NavOne from "../components/NavOne";
 import AboutTwo from "../components/AboutTwo";
 import TopCourses from "../components/TopCourses";
@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 const HomePage = () => (
   <Layout pageTitle="Kipso - React Next Online Education Learning & LMS Template">
-    <Topbar />
+    <TopbarOnlyText />
     <NavOne />
     <AboutTwo />
     <TopCourses />

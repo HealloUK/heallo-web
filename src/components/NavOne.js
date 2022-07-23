@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import logo from "../assets/images/logo-dark.png";
+import logo from "../assets/images/logo-dark-2.png";
 class NavOne extends Component {
   constructor() {
     super();
@@ -100,85 +100,19 @@ class NavOne extends Component {
               <ul className=" navigation-box">
                 <li className="current">
                   <Link to="/">Home</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/">Home 01</Link>
-                    </li>
-                    <li>
-                      <Link to="/index-2">Home 02</Link>
-                    </li>
-                    <li>
-                      <Link to="/index-3">Home 03</Link>
-                    </li>
-                    <li>
-                      <a href="#none">Header Versions</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to="/">Header 01</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-2">Header 02</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-3">Header 03</Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
                 </li>
+                
                 <li>
-                  <a href="#none">Pages</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/about">About Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link to="/pricing">Pricing Plans</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ'S</Link>
-                    </li>
-                  </ul>
+                  <a href="/courses">Treatments</a>
+                  
                 </li>
-                <li>
-                  <a href="/courses">Courses</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/courses">Courses</Link>
-                    </li>
-                    <li>
-                      <Link to="/course-details">Courses Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link to="/teachers">Teachers</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/teachers">Teachers</Link>
-                    </li>
-                    <li>
-                      <Link to="/teacher-details">Teachers Details</Link>
-                    </li>
-                    <li>
-                      <Link to="/become-teacher">Become Teacher</Link>
-                    </li>
-                  </ul>
-                </li>
+                
+                
+                
                 <li>
                   <Link to="/news">News</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/news">News Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/news-details">News Details</Link>
-                    </li>
-                  </ul>
                 </li>
+
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>

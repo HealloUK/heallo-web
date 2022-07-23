@@ -6,12 +6,6 @@ import course3 from "../assets/images/treatments/breast-1.jpg";
 import course4 from "../assets/images/treatments/tummy-1.jpg";
 import course5 from "../assets/images/treatments/lipo-1.jpg";
 import course6 from "../assets/images/treatments/butt-1.jpg";
-import team1 from "../assets/images/team-1-1.jpg";
-import team2 from "../assets/images/team-1-2.jpg";
-import team3 from "../assets/images/team-1-3.jpg";
-import team4 from "../assets/images/team-1-4.jpg";
-import team5 from "../assets/images/team-1-5.jpg";
-import team6 from "../assets/images/team-1-6.jpg";
 
 const TopCourses = () => {
   return (
