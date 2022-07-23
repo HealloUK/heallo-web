@@ -13,83 +13,95 @@ const TopCourses = () => {
       <div className="container">
         <div className="row">
 
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course1} alt="" />
-              </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
+        <div className="col-lg-4">
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course1} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
                   Rhinoplasty
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course2} alt="" />
-              </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course2} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
                   Hair Transplant
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course3} alt="" />
-              </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course3} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
                   Breast Augmentation
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course4} alt="" />
-              </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course4} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
                   Tummy Tuck
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course5} alt="" />
-              </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course5} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
                   Liposuction
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
-
+          
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="treatment-one__image">
-                <img src={course6} alt="" />
+            <a href="#none">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <img src={course6} alt="" />
+                </div>
+                <div className="treatment-one__content">
+                  <a className="treatment-one__category">
+                    Butt Lift
+                  </a>
+                </div>
               </div>
-              <div className="treatment-one__content">
-                <a href="#none" className="treatment-one__category">
-                  Butt Lift
-                </a>
-              </div>
-            </div>
+            </a>
           </div>
           
           
