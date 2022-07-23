@@ -98,9 +98,12 @@ const TopCourses = () => {
 
         <div className="all-items-link">
           
-          <a href="/courses">All Treatments</a>
+          <a href="/courses">
+            <button type="button" class="btn btn-light">See All Treatments</button>
+          </a>
           
         </div>
+        
 
       </div>
     </section>

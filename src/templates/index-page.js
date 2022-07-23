@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 
 const HomePage = () => (
-  <Layout pageTitle="Kipso - React Next Online Education Learning & LMS Template">
+  <Layout pageTitle="Heallo - We design your perfect medical journey in Turkey">
     <TopbarOnlyText />
     <NavOne />
     <AboutTwo />

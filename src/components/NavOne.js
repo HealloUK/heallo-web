@@ -82,13 +82,13 @@ class NavOne extends Component {
                 <a href="#none">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#none">
+                <a target="blank" href="https://www.facebook.com/heallouk">
                   <i className="fab fa-facebook-square"></i>
                 </a>
                 <a href="#none">
                   <i className="fab fa-pinterest-p"></i>
                 </a>
-                <a href="#none">
+                <a target="blank" href="https://www.instagram.com/heallouk/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
