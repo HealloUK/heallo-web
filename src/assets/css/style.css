@@ -2925,6 +2925,11 @@ a:visited {
 .course-one [class*=col-lg-]:nth-child(1) .course-one__category {
   background-color: #7c4bc0;
 }
+
+.treatment-one [class*=col-lg-]:nth-child(1) .treatment-one__category {
+  background-color: #7c4bc0;
+}
+
 .course-one [class*=col-lg-]:nth-child(2) .course-one__category {
   background-color: #1888c9;
 }
@@ -2946,15 +2951,26 @@ a:visited {
   transition: all .4s ease;
 }
 .course-one__single:hover {
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+          box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
 }
 .course-one__image {
   position: relative;
 }
+
+.treatment-one__image {
+  position: relative;
+}
+
 .course-one__image > img {
   width: 100%;
 }
+
+.treatment-one__image > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
 .course-one__image i {
   font-size: 16px;
   color: #fff;
@@ -2962,6 +2978,15 @@ a:visited {
   top: 30px;
   right: 30px;
 }
+
+.treatment-one__image i {
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
 .course-one__category {
   display: inline-block;
   vertical-align: middle;
@@ -2979,10 +3004,36 @@ a:visited {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+.treatment-one__category {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  letter-spacing: .2em;
+  background-color: #7c4bc0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 0 17px;
+  position: absolute;
+  left: 50px;
+  top: -13.5px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  border-radius: 5px;
+}
+
 .course-one__category:hover {
   color: #fff;
   background-color: #012237;
 }
+
+.treatment-one__category:hover {
+  color: #fff;
+  background-color: #7c4bc0;
+}
+
 .course-one__content {
   padding-left: 45px;
   padding-right: 45px;
@@ -2995,6 +3046,20 @@ a:visited {
   border-top: 0;
   background-color: #fff;
 }
+
+.treatment-one__content {
+  padding-left: 45px;
+  padding-right: 45px;
+  position: relative;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f1f1f1;
+  border-top: 0;
+  background-color: #fff;
+}
+
 .course-one__admin {
   display: -webkit-box;
   display: -ms-flexbox;
