@@ -9,7 +9,7 @@ class Topbar extends Component {
             <a href="#none">If you think you deserve better</a>
           </div>
           <div className="topbar-one-only-text__right">
-            <a href="#none">Get Free Code Now</a>
+            <a href="#none">Get Free Quote Now</a>
           </div>
         </div>
       </div>
