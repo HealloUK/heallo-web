@@ -4555,7 +4555,7 @@ a:visited {
 }
 
 .footer-widget {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 .footer-widget .list-unstyled {
@@ -4589,7 +4589,7 @@ a:visited {
   font-size: 18px;
   font-weight: bold;
   line-height: 1em;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 .footer-widget__link-wrap {
   display: -webkit-box;
@@ -4653,7 +4653,7 @@ a:visited {
   line-height: 1em;
 }
 .footer-widget__link-list li + li {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .footer-widget__link-list li a {
   color: #94a3ac;
@@ -4666,7 +4666,7 @@ a:visited {
   color: #f16101;
 }
 .footer-widget__course-list li + li {
-  margin-top: 38px;
+  margin-top: 8px;
 }
 .footer-widget__course-list li h2 {
   margin: 0;

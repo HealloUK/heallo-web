@@ -16,102 +16,86 @@ const Footer = () => {
         <div className="site-footer__upper">
           <div className="container">
             <div className="row">
-              <div className="col-xl-3 col-lg-6 col-sm-12">
-                <div className="footer-widget footer-widget__contact">
-                  <h2 className="footer-widget__title">Courses</h2>
-                  <ul className="list-unstyled footer-widget__course-list">
-                    <li>
-                      <h2>
-                        <a href="course-details.html">
-                          Introduction Web Design
-                        </a>
-                      </h2>
-                      <p>Mike Hardson</p>
-                    </li>
-                    <li>
-                      <h2>
-                        <a href="course-details.html">
-                          {" "}
-                          Learning MBA Management{" "}
-                        </a>
-                      </h2>
-                      <p>Jessica Brown</p>
-                    </li>
-                  </ul>
+              
+            <div className="col-xl-3 col-lg-6 col-sm-12">
+                <div className="footer-widget footer-widget__link">
+                  <h2 className="footer-widget__title">Treatments</h2>
+                  <div className="footer-widget__link-wrap">
+                    
+                    <ul className="list-unstyled footer-widget__link-list">
+                      <li>
+                        <a href="#none">Rhinoplasty</a>
+                      </li>
+                      <li>
+                        <a href="#none">Hair Transplant</a>
+                      </li>
+                      <li>
+                        <a href="#none">Face Lift</a>
+                      </li>
+                      <li>
+                        <a href="#none">Breast Augmentation</a>
+                      </li>
+                      <li>
+                        <a href="#none">Breast Reduction</a>
+                      </li>
+                      <li>
+                        <a href="#none">Liposuction</a>
+                      </li>
+                      <li>
+                        <a href="#none">Tummy Tuck</a>
+                      </li>
+                      <li>
+                        <a href="#none">Sleeve-Gastrectomy</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
                 </div>
               </div>
+              
+
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__link">
                   <h2 className="footer-widget__title">Explore</h2>
                   <div className="footer-widget__link-wrap">
+                    
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
                         <a href="#none">About</a>
                       </li>
                       <li>
-                        <a href="#none">Overview</a>
+                        <a href="#none">Treatments</a>
                       </li>
                       <li>
-                        <a href="#none">Teachers</a>
-                      </li>
-                      <li>
-                        <a href="#none">Join Us</a>
-                      </li>
-                      <li>
-                        <a href="#none">Our News</a>
+                        <a href="#none">News</a>
                       </li>
                     </ul>
-                    <ul className="list-unstyled footer-widget__link-list">
-                      <li>
-                        <a href="#none">Help </a>
-                      </li>
-                      <li>
-                        <a href="#none">Contact</a>
-                      </li>
-                      <li>
-                        <a href="#none">Register Now</a>
-                      </li>
-                    </ul>
+                    
                   </div>
                 </div>
               </div>
+
+            
               <div className="col-xl-3 col-lg-6 col-sm-12">
-                <div className="footer-widget footer-widget__gallery">
-                  <h2 className="footer-widget__title">Gallery</h2>
-                  <ul className="list-unstyled footer-widget__gallery-list">
-                    <li>
-                      <a href="#none">
-                        <img src={footer1} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer2} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer3} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer4} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer5} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer6} alt="" />
-                      </a>
-                    </li>
-                  </ul>
+                <div className="footer-widget footer-widget__link">
+                  <h2 className="footer-widget__title">Terms</h2>
+                  <div className="footer-widget__link-wrap">
+                    
+                    <ul className="list-unstyled footer-widget__link-list">
+                      <li>
+                        <a href="#none">Terms And Conditions</a>
+                      </li>
+                      <li>
+                        <a href="#none">Privacy Policy</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
                 </div>
               </div>
+
+              
+
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
@@ -129,13 +113,14 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
+              &copy; Copyright 2022 by <a href="#none">Heallo</a>
             </p>
             <div className="site-footer__social">
               <div
