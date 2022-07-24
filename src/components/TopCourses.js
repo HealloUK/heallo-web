@@ -14,7 +14,7 @@ const TopCourses = () => {
         <div className="row">
 
         <div className="col-lg-4">
-            <a href="#none">
+            <a href="/treatments/rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
                   <img src={course1} alt="" />
