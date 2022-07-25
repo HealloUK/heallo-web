@@ -47,31 +47,31 @@ const CourseDetails = () => {
                 <li class="nav-item" role="presentation">
                   <a
                     class=""
-                    id="curriculum-tab"
+                    id="consider-tab"
                     data-bs-toggle="tab" 
-                    data-bs-target="#curriculum"
-                    href="#curriculum"
+                    data-bs-target="#consider"
+                    href="#consider"
                     role="tab"
                     type="button"
-                    aria-controls="curriculum" 
+                    aria-controls="consider" 
                     aria-selected="false"
                   >
-                    Curriculum
+                    When to Consider?
                   </a>
                 </li>
                 <li>
                 <a
                     class=""
-                    id="reviews-tab"
+                    id="expectations-tab"
                     data-bs-toggle="tab" 
-                    data-bs-target="#reviews"
-                    href="#reviews"
+                    data-bs-target="#expectations"
+                    href="#expectations"
                     role="tab"
                     type="button"
-                    aria-controls="reviews" 
+                    aria-controls="expectations" 
                     aria-selected="false"
                   >
-                    Reviews
+                    Expectations
                   </a>
                 </li>
               </ul>
@@ -84,15 +84,12 @@ const CourseDetails = () => {
                   aria-labelledby="overview-tab"
                 >
                   <p className="course-details__tab-text">
-                  Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent 
-                  of surgery, but most people are able to return to work within one week.
+                  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face.
                   </p>
                   <br />
                   <p className="course-details__tab-text">
-                  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty has many benefits, including:
--Improved Appearance: A well-performed rhinoplasty surgery can enhance the appearance of your nose by making it more symmetrical with the rest of your face. It can also make it look smaller or larger, depending on what you desire.
--Improved Functionality: If you have difficulty breathing through your nose due to a structural problem, rhinoplasty surgery may be able to correct that issue.
--Improved Self-Esteem: Many people who undergo rhinoplasty surgery report feeling more confident and self-assured after their procedure is complete.
+                  Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent 
+                  of surgery, but most people are able to return to work within one week.
                   </p>
                   <br />
                   <ul className="list-unstyled course-details__overview-list">
@@ -107,8 +104,8 @@ const CourseDetails = () => {
                 <div
                   className="tab-pane  animated fadeInUp"
                   role="tabpanel"
-                  id="curriculum"
-                  aria-labelledby="curriculum-tab"
+                  id="consider"
+                  aria-labelledby="consider-tab"
                 >
                   <h3 className="course-details__tab-title">
                     Starting beginners level course
@@ -218,8 +215,8 @@ const CourseDetails = () => {
                 <div
                   className="tab-pane  animated fadeInUp"
                   role="tabpanel"
-                  id="reviews"
-                  aria-labelledby="reviews-tab"
+                  id="expectations"
+                  aria-labelledby="expectations-tab"
                 >
                   <div className="row">
                     <div className="col-xl-7 d-flex">
@@ -412,7 +409,7 @@ const CourseDetails = () => {
               </a>
               <a href="#none" className="course-details__meta-link">
                 <span className="course-details__meta-icon">
-                  <i className="far fa-folder-open"></i>
+                <i class="fas fa-regular fa-capsules"></i>
                 </span>
                 Anesthesia: <span>General</span>
               </a>
@@ -424,7 +421,7 @@ const CourseDetails = () => {
               </a>
               <a href="#none" className="course-details__meta-link">
                 <span className="course-details__meta-icon">
-                  <i className="far fa-bell"></i>
+                <i class="fas fa-check"></i>
                 </span>
                 Result: <span>2 months</span>
               </a>

@@ -7,7 +7,7 @@ import CourseDetails from "../components/CourseDetails";
 
 const CoursesPage = () => {
     return (
-        <Layout pageTitle="Kipso | Course Details">
+        <Layout pageTitle="Nose Job Rhinoplasty | Heallo">
             <NavOne />
             <CourseDetails />
             <Footer />
