@@ -26,29 +26,51 @@ const CourseDetails = () => {
                 <img src={courseD1} alt="" />
               </div>
 
+
+
               <ul className="course-details__tab-navs list-unstyled nav nav-tabs">
                 <li>
                   <a
-                    className="active"
-                    role="tab"
-                    data-toggle="tab"
+                    class="active"
+                    id="overview-tab"
+                    data-bs-toggle="tab" 
+                    data-bs-target="#overview"
                     href="#overview"
+                    role="tab"
+                    type="button"
+                    aria-controls="overview" 
+                    aria-selected="true"
                   >
                     Description
                   </a>
                 </li>
-                <li>
+                <li class="nav-item" role="presentation">
                   <a
-                    className=""
-                    role="tab"
-                    data-toggle="tab"
+                    class=""
+                    id="curriculum-tab"
+                    data-bs-toggle="tab" 
+                    data-bs-target="#curriculum"
                     href="#curriculum"
+                    role="tab"
+                    type="button"
+                    aria-controls="curriculum" 
+                    aria-selected="false"
                   >
                     Curriculum
                   </a>
                 </li>
                 <li>
-                  <a className="" role="tab" data-toggle="tab" href="#review">
+                <a
+                    class=""
+                    id="reviews-tab"
+                    data-bs-toggle="tab" 
+                    data-bs-target="#reviews"
+                    href="#reviews"
+                    role="tab"
+                    type="button"
+                    aria-controls="reviews" 
+                    aria-selected="false"
+                  >
                     Reviews
                   </a>
                 </li>
@@ -59,6 +81,7 @@ const CourseDetails = () => {
                   className="tab-pane show active animated fadeInUp"
                   role="tabpanel"
                   id="overview"
+                  aria-labelledby="overview-tab"
                 >
                   <p className="course-details__tab-text">
                   Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent 
@@ -85,6 +108,7 @@ const CourseDetails = () => {
                   className="tab-pane  animated fadeInUp"
                   role="tabpanel"
                   id="curriculum"
+                  aria-labelledby="curriculum-tab"
                 >
                   <h3 className="course-details__tab-title">
                     Starting beginners level course
@@ -194,7 +218,8 @@ const CourseDetails = () => {
                 <div
                   className="tab-pane  animated fadeInUp"
                   role="tabpanel"
-                  id="review"
+                  id="reviews"
+                  aria-labelledby="reviews-tab"
                 >
                   <div className="row">
                     <div className="col-xl-7 d-flex">
