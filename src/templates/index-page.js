@@ -5,6 +5,7 @@ import NavOne from "../components/NavOne";
 import AboutTwo from "../components/AboutTwo";
 import TopCourses from "../components/TopCourses";
 import BlogThree from "../components/BlogThree";
+import CourseCatOne from "../components/CourseCatOne";
 import Footer from "../components/Footer";
 
 
@@ -15,6 +16,7 @@ const HomePage = () => (
     <AboutTwo />
     <TopCourses />
     <BlogThree />
+    <CourseCatOne />
     <Footer />
   </Layout>
 );

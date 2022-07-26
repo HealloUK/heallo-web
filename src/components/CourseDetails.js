@@ -7,6 +7,12 @@ import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
 
 const CourseDetails = () => {
+  function scrollToQuote() {
+    document.getElementById('quote-form').scrollIntoView({
+      behavior: 'auto',
+      block: 'center',
+  });
+  }
   return (
     <section className="course-details">
       <div className="container">
@@ -180,7 +186,7 @@ const CourseDetails = () => {
             <div className="course-details__price">
               <p className="course-details__price-text">Average price </p>
               <p className="course-details__price-amount">$5000.00</p>
-              <a href="#none" className="thm-btn course-details__price-btn">
+              <a onClick={scrollToQuote} href="#none" className="thm-btn course-details__price-btn">
                 Get Free Quote
               </a>
             </div>

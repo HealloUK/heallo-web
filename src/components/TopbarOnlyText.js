@@ -2,6 +2,14 @@ import React, { Component } from "react";
 
 class Topbar extends Component {
   render() {
+
+    function scrollToQuote() {
+      document.getElementById('quote-form').scrollIntoView({
+        behavior: 'auto',
+        block: 'center',
+    });
+    }
+
     return (
       <div className="topbar-one-only-text">
         <div className="container">
@@ -9,7 +17,7 @@ class Topbar extends Component {
             <a href="#none">If you think you deserve better</a>
           </div>
           <div className="topbar-one-only-text__right">
-            <a href="#none">Get Free Quote Now</a>
+            <a onClick={scrollToQuote} href="#none">Get Free Quote Now</a>
           </div>
         </div>
       </div>

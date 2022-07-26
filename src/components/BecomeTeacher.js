@@ -23,7 +23,7 @@ and we are dedicated to ensuring that you have wonderful experience.
 Contact us today to schedule a consultation!</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" id="quote-form">
                         <div className="become-teacher__form">
                             <div className="become-teacher__form-top">
                                 <h2 className="become-teacher__form-title">
