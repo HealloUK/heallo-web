@@ -5,6 +5,7 @@ import courseD1 from "../assets/images/treatments/rhino-1.jpg";
 import lcImage1 from "../assets/images/lc-1-1.jpg";
 import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
+import { StaticImage } from "gatsby-plugin-image"
 
 const CourseDetails = () => {
   function scrollToQuote() {
@@ -29,7 +30,7 @@ const CourseDetails = () => {
                 
               </div>
               <div className="course-one__image">
-                <img src={courseD1} alt="" />
+                <StaticImage placeholder="blurred" src="../assets/images/treatments/rhino-1.jpg" alt="" />
               </div>
 
 

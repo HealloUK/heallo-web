@@ -6,6 +6,7 @@ import course3 from "../assets/images/treatments/breast-1.jpg";
 import course4 from "../assets/images/treatments/tummy-1.jpg";
 import course5 from "../assets/images/treatments/lipo-1.jpg";
 import course6 from "../assets/images/treatments/butt-1.jpg";
+import { StaticImage } from "gatsby-plugin-image"
 
 const TopCourses = () => {
   return (
@@ -14,10 +15,10 @@ const TopCourses = () => {
         <div className="row">
 
         <div className="col-lg-4">
-            <a href="/treatments/rhinoplasty">
+            <Link to="/treatments/rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course1} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/rhino-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
@@ -25,14 +26,14 @@ const TopCourses = () => {
                   </a>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="col-lg-4">
             <a href="#none">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course2} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/hair-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
@@ -47,7 +48,7 @@ const TopCourses = () => {
             <a href="#none">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course3} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/breast-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
@@ -63,7 +64,7 @@ const TopCourses = () => {
             <a href="#none">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course4} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/tummy-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
@@ -78,7 +79,7 @@ const TopCourses = () => {
             <a href="#none">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course5} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/lipo-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
@@ -93,7 +94,7 @@ const TopCourses = () => {
             <a href="#none">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <img src={course6} alt="" />
+                  <StaticImage placeholder="blurred" src="../assets/images/treatments/butt-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
                   <a className="treatment-one__category">
