@@ -98,28 +98,28 @@ class NavOne extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="current">
-                  <Link to="/">Home</Link>
+                <li>
+                  <Link to="/" activeStyle={{ color: "#7c4bc0" }}>Home</Link>
                 </li>
                 
                 <li>
-                  <Link to="/treatments">Treatments</Link>
+                  <Link to="/treatments" activeStyle={{ color: "#7c4bc0" }}>Treatments</Link>
                   
                 </li>
                 
                 
                 <li>
-                  <Link to="/news">News</Link>
+                  <Link to="/news" activeStyle={{ color: "#7c4bc0" }}>News</Link>
                 </li>
 
 
                 <li>
-                  <Link to="/faq">FAQ</Link>
+                  <Link to="/faq" activeStyle={{ color: "#7c4bc0" }}>FAQ</Link>
                 </li>
 
 
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact" activeStyle={{ color: "#7c4bc0" }}>Contact</Link>
                 </li>
 
               </ul>
