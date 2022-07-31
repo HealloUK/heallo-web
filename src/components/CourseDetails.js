@@ -187,28 +187,38 @@ const CourseDetails = ({details}) => {
 
 
             <div className="course-details__list">
-              <h2 className="course-details__list-title">Popular Treatments</h2>
+              <h2 className="course-details__list-title">Popular Questions</h2>
+
               <div className="course-details__list-item">
-                <div className="course-details__list-img">
-                  <img src={lcImage1} alt="" />
-                </div>
+                
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <a href="#none">Breast Augmentation</a>
+                    <a href="#none">Why is Turkey a great destination for health tourism?</a>
                   </h3>
                   
                 </div>
 
               </div>
+
               <div className="course-details__list-item">
-                <div className="course-details__list-img">
-                  <img src={lcImage2} alt="" />
-                </div>
+                
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <a href="#none">Tummy Tuck</a>
+                    <a href="#none">Why is Heallo a better alternative than local treatments?</a>
+                  </h3>
+
+                  
+                </div>
+              </div>
+
+              <div className="course-details__list-item">
+                
+                <div className="course-details__list-content">
+                  
+                  <h3>
+                    <a href="#none">How do I know if I can trust the doctors and hospitals you partner with?</a>
                   </h3>
 
                   
