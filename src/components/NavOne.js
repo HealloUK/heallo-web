@@ -15,7 +15,7 @@ class NavOne extends Component {
     this.mobileMenu();
 
     //Search Toggle
-    this.serachButton();
+    //this.serachButton();
   }
 
   componentWillUnmount() {
@@ -45,6 +45,7 @@ class NavOne extends Component {
     });
   };
 
+  /*
   serachButton = () => {
     let searchToggle = document.querySelector(".search-toggle");
     let searchPopup = document.querySelector(".search-popup");
@@ -56,9 +57,8 @@ class NavOne extends Component {
     });
 
     
-
-    
   };
+  */
 
   render() {
     return (
@@ -108,16 +108,24 @@ class NavOne extends Component {
                 </li>
                 
                 
-                
                 <li>
                   <Link to="/news">News</Link>
                 </li>
 
+
+                <li>
+                  <Link to="/faq">FAQ</Link>
+                </li>
+
+
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
+
               </ul>
             </div>
+
+            {/*
             <div className="right-side-box">
               <a
                 className="header__search-btn search-popup__toggler search-toggle"
@@ -126,6 +134,9 @@ class NavOne extends Component {
                 <i className="kipso-icon-magnifying-glass"></i>
               </a>
             </div>
+            */}
+
+
           </div>
         </nav>
         <div className="site-header__decor">

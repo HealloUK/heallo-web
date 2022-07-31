@@ -1,8 +1,6 @@
 import React from "react";
-import lcImage1 from "../assets/images/lc-1-1.jpg";
-import lcImage2 from "../assets/images/lc-1-2.jpg";
-import lcImage3 from "../assets/images/lc-1-3.jpg";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Link } from "gatsby";
 
 const CourseDetails = ({details}) => {
   function scrollToQuote() {
@@ -194,7 +192,7 @@ const CourseDetails = ({details}) => {
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <a href="#none">Why is Turkey a great destination for health tourism?</a>
+                    <Link to="/faq#great-destination">Why is Turkey a great destination for health tourism?</Link>
                   </h3>
                   
                 </div>
@@ -206,7 +204,7 @@ const CourseDetails = ({details}) => {
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <a href="#none">Why is Heallo a better alternative than local treatments?</a>
+                    <Link to="/faq#better-alternative">Why is Heallo a better alternative than local treatments?</Link>
                   </h3>
 
                   
@@ -218,7 +216,7 @@ const CourseDetails = ({details}) => {
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <a href="#none">How do I know if I can trust the doctors and hospitals you partner with?</a>
+                    <Link to="/faq#how-do-i-know">How do I know if I can trust the doctors and hospitals you partner with?</Link>
                   </h3>
 
                   
