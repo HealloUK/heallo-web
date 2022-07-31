@@ -103,7 +103,7 @@ class NavOne extends Component {
                 </li>
                 
                 <li>
-                  <a href="/courses">Treatments</a>
+                  <Link to="/treatments">Treatments</Link>
                   
                 </li>
                 

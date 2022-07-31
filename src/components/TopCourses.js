@@ -147,9 +147,10 @@ const TopCourses = () => {
 
         </div>
 
+
         <div className="all-items-link">
           
-          <a href="/courses" className="thm-btn">
+          <a href="/treatments" className="thm-btn">
             View All Treatments
           </a>
           
