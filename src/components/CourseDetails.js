@@ -192,7 +192,7 @@ const CourseDetails = ({details}) => {
                 <div className="course-details__list-content">
                   
                   <h3>
-                    <Link to="/faq#great-destination">Why is Turkey a great destination for health tourism?</Link>
+                    <Link to="/faq">Why is Turkey a great destination for health tourism?</Link>
                   </h3>
                   
                 </div>
