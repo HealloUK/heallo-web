@@ -39,17 +39,17 @@ const BlogCard = ({ post }) => {
                 </h2>
           
           
-
+            <span>
                 {post.frontmatter.tags &&
                   post.frontmatter.tags.map(( tag, i ) => (
-                  <span>
+                  <>
                   <Link to={`/tags/${tag}`} className="blog-one__link">
                       {tag}
                   </Link>
                   {i == post.frontmatter.tags.length - 1 ? "" : ", "}
-                  </span>
+                  </>
                 ))}
-
+            </span>
 
 
               </div>
