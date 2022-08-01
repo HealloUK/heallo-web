@@ -9,17 +9,15 @@ class BlogRollTemplate extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <>
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
+
+
+            <div className="col-lg-4">
+            <div className="blog-one__single">
+              <div className="blog-one__image">
+              {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
@@ -35,31 +33,44 @@ class BlogRollTemplate extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
+                <a className="blog-one__plus" href="news-details.html">
+                  <i className="kipso-icon-plus-symbol"></i>
+                </a>
+              </div>
+              <div className="blog-one__content text-center">
+                
+                <h2 className="blog-one__title">
+                <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                </h2>
+          
+          
+
+                {post.frontmatter.tags &&
+                  post.frontmatter.tags.map(( tag, i ) => (
+                  <span>
+                  <Link to={`/tags/${tag}`} className="blog-one__link">
+                      {tag}
                   </Link>
-                </p>
-              </article>
+                  {i == post.frontmatter.tags.length - 1 ? "" : ", "}
+                  </span>
+                ))}
+
+
+
+              </div>
             </div>
+          </div>
+
+
+
+
           ))}
-      </div>
+      </>
     )
   }
 }
@@ -94,12 +105,12 @@ export default function BlogRoll() {
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost
+                  tags
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(
-                        width: 120
                         quality: 100
-                        layout: CONSTRAINED
+                        layout: FULL_WIDTH
                       )
 
                     }
