@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
 import BlogCard from './BlogCard'
 
-class BlogRollTemplate extends React.Component {
+class BlogRollLatestTemplate extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -21,7 +21,7 @@ class BlogRollTemplate extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+BlogRollLatest.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -30,12 +30,13 @@ BlogRoll.propTypes = {
 }
 
 
-export default function BlogRoll() {
+export default function BlogRollLatest() {
   return (
     <StaticQuery
       query={graphql`
-        query BlogRollQuery {
+        query BlogRollLatestQuery {
           allMarkdownRemark(
+            limit: 3
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
           ) {
@@ -67,7 +68,7 @@ export default function BlogRoll() {
           }
         }
       `}
-      render={(data, count) => <BlogRollTemplate data={data} count={count} />}
+      render={(data, count) => <BlogRollLatestTemplate data={data} count={count} />}
     />
   );
 }
