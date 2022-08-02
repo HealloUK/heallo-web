@@ -30,20 +30,48 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
-
+    
     posts.forEach((edge) => {
       const id = edge.node.id
+
+      // Create other pages except health-news-page
+      if(edge.node.frontmatter.templateKey != "health-news-page") {
+
+        createPage({
+          path: edge.node.fields.slug,
+          tags: edge.node.frontmatter.tags,
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id,
+          },
+        })
+
+    }
+
+    const blogPosts = posts.filter(edge => edge.node.frontmatter.templateKey == "blog-post")
+    // Create health news pages
+    const postsPerPage = 2
+    const numPages = Math.ceil(blogPosts.length / postsPerPage)
+    Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
+        path: i === 0 ? `/health-news` : `/health-news/${i + 1}`,
+        component: path.resolve("./src/templates/health-news-page.js"),
         context: {
           id,
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
         },
       })
+    })
+    
+
+
+
     })
 
     // Tag pages:
