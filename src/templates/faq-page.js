@@ -7,7 +7,9 @@ import Faq from "../components/Faq";
 
 const FaqPage = () => {
     return (
-        <Layout pageTitle="FAQ | Heallo">
+        <Layout
+            pageTitle="FAQ"
+        >
             <NavOne />
             {/*<PageHeader title="FAQ" />*/}
             <Faq />

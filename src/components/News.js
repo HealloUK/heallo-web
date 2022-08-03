@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import BlogCard from './BlogCard'
 
-const News = ({ posts, pageContext }) => {
+const News = ({ posts, pageContext, pagination=true }) => {
 
   const {currentPage, numPages} = pageContext
   const isFirst = currentPage === 1
@@ -26,12 +26,12 @@ const News = ({ posts, pageContext }) => {
 
         <div className="post-pagination">
         
-        {!isFirst && (<Link to= {`/health-news${prevPage}`}>
+        {!isFirst && pagination && (<Link to= {`/health-news${prevPage}`}>
             <i className="fa fa-angle-double-left"> Previous</i>
           </Link>)
         }
 
-        {!ifLast && (<Link to= {`/health-news${nextPage}`}>
+        {!ifLast && pagination && (<Link to= {`/health-news${nextPage}`}>
         <i className="fa fa-angle-double-right"> Next</i>
           </Link>)
         }

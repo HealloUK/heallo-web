@@ -10,7 +10,10 @@ import Footer from "../components/Footer";
 
 
 const HomePage = () => (
-  <Layout pageTitle="Heallo - We design your perfect medical journey in Turkey">
+  <Layout 
+    pageTitle="We design your perfect medical journey in Turkey"
+    description="We have a wide range of aesthetic treatments including bariatric surgery, hair transplant and dental for you to choose from-all at an affordable price in Turkey."
+  >
     <TopbarOnlyText />
     <NavOne />
     <AboutTwo />

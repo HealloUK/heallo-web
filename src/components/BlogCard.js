@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const BlogCard = ({ post }) => {
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4" key={post.id}>
             <div className="blog-one__single">
               <div className="blog-one__image">
               {post.frontmatter.featuredimage ? (
@@ -12,7 +12,7 @@ const BlogCard = ({ post }) => {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          alt: post.frontmatter.title,
                           width:
                             post.frontmatter.featuredimage.childImageSharp
                               .gatsbyImageData.width,

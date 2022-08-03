@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
-import PageHeader from "../components/PageHeader";
+import { getImage } from "gatsby-plugin-image"
 import Footer from "../components/Footer";
 import CourseDetails from "../components/CourseDetails";
 import CourseCatOne from "../components/CourseCatOne";
@@ -10,9 +10,15 @@ import { graphql } from 'gatsby';
 
 const CoursesPage = ({ data }) => {
     const { markdownRemark: post } = data;
+
+    const heroImage = getImage(post.frontmatter.image) || post.frontmatter.image;
     
     return (
-        <Layout pageTitle={post.frontmatter.title + " | Heallo"}>
+      <Layout
+        pageTitle={post.frontmatter.title}
+        description={post.frontmatter.description.substr(0, post.frontmatter.description.indexOf(".")) + "..."}
+        image={heroImage.images.fallback.src}
+      >
             <NavOne />
             <CourseDetails details= {post.frontmatter}/>
             <CourseCatOne />

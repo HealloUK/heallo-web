@@ -5,6 +5,9 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import NewsDetails from "../components/NewsDetails";
+import NavOne from "../components/NavOne";
+import Footer from "../components/Footer";
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -56,27 +59,29 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  
+  const { allMarkdownRemark, markdownRemark: post } = data;
+  const { group } = allMarkdownRemark;
+
 
   return (
-    <Layout>
-      <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-      />
+    
+    <Layout
+      pageTitle={post.frontmatter.title}
+      description={post.frontmatter.description}
+    >
+        <NavOne />
+        <NewsDetails 
+          content={post.html}
+          contentComponent={HTMLContent}
+          description={post.frontmatter.description}
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+          group={group}
+        />
+        <Footer />
     </Layout>
+    
   );
 };
 
@@ -90,6 +95,12 @@ export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
+    allMarkdownRemark(limit: 1000) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       html

@@ -7,9 +7,11 @@ import Courses from "../components/Courses";
 
 const CoursesPage = () => {
     return (
-        <Layout pageTitle="Aesthetic Treatments | Heallo">
+        <Layout 
+            pageTitle="Aesthetic Treatments in Turkey"
+            description="Our skilled surgeons offers a wide range of procedures, including rhinoplasty, tummy tuck, bbl, liposuction, facelift, and breast surgery with affordable prices."
+        >
             <NavOne />
-            {/*<PageHeader title="Treatments" />*/}
             <Courses />
             <Footer />
         </Layout>

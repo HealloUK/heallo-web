@@ -4750,6 +4750,12 @@ a:visited {
   border-color: #f1f1f1;
   background-color: white;
 }
+
+.blog-one__content img {
+  height: auto;
+  max-width: 100%;
+}
+
 .blog-one__meta {
   display: -webkit-box;
   display: -ms-flexbox;

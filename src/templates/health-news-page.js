@@ -11,7 +11,10 @@ const NewsPage = ({ pageContext, data }) => {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-        <Layout pageTitle="Health News | Heallo">
+      <Layout
+        pageTitle="Health News"
+        description="Check out latest news about the aesthetic treatments and medical tourism."
+      >
             <NavOne />
             {/*<PageHeader title="News" />*/}
             <News posts= { posts } pageContext= {pageContext}/>
@@ -50,7 +53,6 @@ query NewsPageQuery($skip: Int!, $limit: Int!) {
                 quality: 100
                 layout: FULL_WIDTH
               )
-
             }
           }
         }

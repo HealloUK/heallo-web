@@ -36,7 +36,7 @@ const CourseDetails = ({details}) => {
               <ul className="course-details__tab-navs list-unstyled nav nav-tabs">
                 <li>
                   <a
-                    class="active"
+                    className="active"
                     id="overview-tab"
                     data-bs-toggle="tab" 
                     data-bs-target="#overview"
@@ -49,9 +49,9 @@ const CourseDetails = ({details}) => {
                     Description
                   </a>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li className="nav-item" role="presentation">
                   <a
-                    class=""
+                    className=""
                     id="consider-tab"
                     data-bs-toggle="tab" 
                     data-bs-target="#consider"
@@ -66,7 +66,7 @@ const CourseDetails = ({details}) => {
                 </li>
                 <li>
                 <a
-                    class=""
+                    className=""
                     id="expectations-tab"
                     data-bs-toggle="tab" 
                     data-bs-target="#expectations"
@@ -165,7 +165,7 @@ const CourseDetails = ({details}) => {
               </a>
               <a href="#none" className="course-details__meta-link">
                 <span className="course-details__meta-icon">
-                <i class="fas fa-regular fa-capsules"></i>
+                <i className="fas fa-regular fa-capsules"></i>
                 </span>
                 Anesthesia: <span>{details.anesthesia}</span>
               </a>
@@ -177,7 +177,7 @@ const CourseDetails = ({details}) => {
               </a>
               <a href="#none" className="course-details__meta-link">
                 <span className="course-details__meta-icon">
-                <i class="fas fa-check"></i>
+                <i className="fas fa-check"></i>
                 </span>
                 Result: <span>{details.result}</span>
               </a>
