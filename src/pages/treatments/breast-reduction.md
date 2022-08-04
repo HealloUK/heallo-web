@@ -3,17 +3,19 @@ templateKey: 'course-details'
 path: /treatments/breast-reduction
 image: /img/treatments/breast-reduction.jpg
 title: Breast Reduction
-price: 5000
+price: 2500
 duration: 2-5 hours
 anesthesia: General
-recovery: 2-4 weeks
-result: 22 months
+recovery: 2-6 weeks
+result: Few months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  Breast reduction surgery is a surgical procedure to remove excess breast fat, glandular tissue and skin to reduce the size of breasts.
+  This surgery is usually performed on women who have large breasts that cause physical problems or emotional distress.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Large breasts that cause physical problems
+        - Breast asymmetry
+        - Posture problems
+        - Aiming more appealing look
 expectations:
         - Improved balance, shape and symmetry
         - Youthful appearance

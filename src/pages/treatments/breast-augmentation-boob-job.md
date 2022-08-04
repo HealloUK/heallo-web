@@ -3,19 +3,21 @@ templateKey: 'course-details'
 path: /treatments/breast-augmentation-boob-job
 image: /img/treatments/breast-1.jpg
 title: Breast Augmentation
-price: 5000
-duration: 2-5 hours
+price: 3600
+duration: 1-2 hours
 anesthesia: General
-recovery: 2-4 weeks
-result: 22 months
+recovery: 3-4 weeks
+result: Few weeks
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  Breast augmentation — also known as augmentation mammoplasty — is a surgical procedure to increase the size of a woman's breasts. Implants are inserted into the breast tissue to achieve this goal. Breast augmentation may also be used to correct asymmetry in the breasts or to improve the appearance of sagging breasts.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Women who are dissatisfied with their current breasts size or shape
+        - Want to increase their bust size or improve their contour.
+        - Breast asymmetry
 expectations:
-        - Improved balance, shape and symmetry
-        - Youthful appearance
-        - Enhanced self-confidence
+        - Increased confidence and self-esteem
+        - Improved appearance of breasts
+        - More youthful appearance overall
+        - Better bra fit & fewer back problems
+        
 ---

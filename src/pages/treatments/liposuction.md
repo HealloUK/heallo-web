@@ -4,18 +4,17 @@ path: /treatments/liposuction
 image: /img/treatments/lipo-1.jpg
 title: Liposuction
 price: 5000
-duration: 2-5 hours
+duration: Several hours
 anesthesia: General
-recovery: 2-4 weeks
-result: 22 months
+recovery: 1-2 weeks
+result: Several months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  Liposuction is a cosmetic surgery procedure that removes fat from specific areas of the body. Liposuction can improve body contours and help to create a more flattering silhouette. It is a very effective way to remove stubborn fat deposits that are resistant to diet and exercise. Results are usually long-lasting provided you maintain a healthy lifestyle.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Stubborn fat deposits that are resistant to diet and exercise
+ 
 expectations:
-        - Improved balance, shape and symmetry
+        - Improved shape and symmetry
         - Youthful appearance
-        - Enhanced self-confidence
+        - Improve your self-confidence and body image
 ---

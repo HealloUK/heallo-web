@@ -4,18 +4,16 @@ path: /treatments/tummy-tuck-abdominoplasty
 image: /img/treatments/tummy-1.jpg
 title: Tummy Tuck (Abdominoplasty)
 price: 5000
-duration: 2-5 hours
+duration: 2-4 hours
 anesthesia: General
-recovery: 2-4 weeks
-result: 22 months
+recovery: 4-6 weeks
+result: 2-3 months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  A tummy tuck, also known as abdominoplasty, is a surgical procedure that removes excess skin and fat from the abdomen. This surgery is one of the most common procedures there is, and it can be helpful for people who have gained weight or had children. During a tummy tuck, the surgeon will make a horizontal incision across the lower abdomen. The excess skin and fat will then be removed, and the abdominal muscles may be tightened.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Excess skin and tissue due to pregnancy or weight loss
 expectations:
-        - Improved balance, shape and symmetry
-        - Youthful appearance
+        - Improved appearance
+        - Improved posture
         - Enhanced self-confidence
 ---

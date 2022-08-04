@@ -3,19 +3,18 @@ templateKey: 'course-details'
 path: /treatments/gastric-sleeve-surgery-weight-loss
 image: /img/treatments/gastric.jpg
 title: Gastric Sleeve
-price: 5000
-duration: 2-5 hours
+price: 4000
+duration: 1-2 hours
 anesthesia: General
 recovery: 2-4 weeks
-result: 22 months
+result: 6 months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  Gastric sleeve surgery, also known as sleeve gastrectomy, is a surgical procedure in which the stomach is reduced to about 25% of its original size by removing most of the stomach tissue. This reduces the amount of food that can be eaten at one time and helps patients lose weight.
+  The surgery is usually done using laparoscopic techniques, meaning that it is performed through several small incisions in the abdomen.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - People who are obese and have not been able to lose weight through diet and exercise alone
 expectations:
-        - Improved balance, shape and symmetry
+        - Weight loss
         - Youthful appearance
         - Enhanced self-confidence
 ---

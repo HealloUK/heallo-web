@@ -3,19 +3,18 @@ templateKey: 'course-details'
 path: /treatments/face-lift-surgery-rhytidectomy
 image: /img/treatments/face-lift.jpg
 title: Face Lift Surgery (Rhytidectomy)
-price: 5000
-duration: 2-5 hours
+price: 4000
+duration: 2-4 hours
 anesthesia: General
 recovery: 2-4 weeks
-result: 22 months
+result: 2-3 months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+  A facelift, also known as a rhytidectomy, is a surgical procedure to improve the appearance of the face and neck. The surgery can involve removing excess skin and fat, tightening muscles, or repositioning bones. A facelift can be used to reduce wrinkles, sagging skin, and age spots. It may also be used to correct deformities caused by injuries or birth defects. A facelift can help people look younger and more attractive.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Sagging appearance of face
+        - Excess skin
+        - Loosening of the skin
 expectations:
-        - Improved balance, shape and symmetry
-        - Youthful appearance
+        - Look younger and more attractive
         - Enhanced self-confidence
 ---

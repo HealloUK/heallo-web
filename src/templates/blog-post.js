@@ -8,6 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import NewsDetails from "../components/NewsDetails";
 import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
+import CourseCatOne from "../components/CourseCatOne";
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -79,6 +80,7 @@ const BlogPost = ({ data }) => {
           title={post.frontmatter.title}
           group={group}
         />
+        <CourseCatOne />
         <Footer />
     </Layout>
     

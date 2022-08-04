@@ -3,19 +3,18 @@ templateKey: 'course-details'
 path: /treatments/hair-transplantation
 image: /img/treatments/hair-1.jpg
 title: Hair Transplantation
-price: 5000
-duration: 2-5 hours
-anesthesia: General
-recovery: 2-4 weeks
-result: 22 months
+price: 2200
+duration: 4-8 hours
+anesthesia: Local
+recovery: 10-14 days
+result: 5-6 months
 description: >-
-  Rhinoplasty is a surgical procedure that can improve the appearance of your nose. It can correct functional problems with your nose, such as difficulty breathing, and it can also improve the overall symmetry of your face. Rhinoplasty is typically performed by a plastic surgeon and requires general anesthesia. Recovery time varies depending on the extent of surgery, but most people are able to return to work within one week.
+        A hair transplant is a surgical procedure that moves hair follicles from one part of the body to another.
+        Most commonly, hair transplants are used to restore hair loss on the scalp. The surgeon extracts donor hairs from the back or sides of the scalp. Creates tiny incisions in the balding area and inserts the donor hairs into them. Closes up the incisions with stitches or staples.
 whenconsider:
-        - Aiming for a better proportion and a more appealing look
-        - Restoring the symmetry of the breasts
-        - Post-pregnancy, massive weight loss and aging
+        - Hair thinning or balding areas on the scalp
 expectations:
-        - Improved balance, shape and symmetry
+        - Can restore thinning or balding areas on the scalp
         - Youthful appearance
         - Enhanced self-confidence
 ---
