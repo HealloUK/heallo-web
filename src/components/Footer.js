@@ -1,9 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  function scrollTop() {
-    window.scrollTo(0, 0);
-  }
+  
   return (
     <div>
       <footer className="site-footer">
@@ -36,6 +34,7 @@ const Footer = () => {
 
       </footer>
 
+      {/*
       <div className="search-popup">
         <div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
         <div className="search-popup__inner">
@@ -52,6 +51,9 @@ const Footer = () => {
           </form>
         </div>
       </div>
+      */}
+
+
     </div>
   );
 };
