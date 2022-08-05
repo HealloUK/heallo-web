@@ -27,6 +27,7 @@ const Layout = (props) => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="canonical" href="https://heallo.co.uk/" />
         <meta name={`robots`} content={`index, follow`}/>
         {metaDescription && (<meta name={`description`} content={metaDescription}/>)}
         <meta name={`og:title`} content={title}/>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Heallo UK",
-    description:
-      "We design your perfect medical journey in Turkey",
+    description: "We design your perfect medical journey in Turkey",
+    siteUrl: "https://www.heallo.co.uk",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -81,5 +81,11 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     "gatsby-plugin-netlify", // make sure to keep it last in the array
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        exclude: ["/admin"]
+      }
+    }
   ],
 };
