@@ -36,9 +36,8 @@ export default class AboutTwo extends Component {
                 </div>
                 
                 <p className="about-two__text">
-                  There are many variations of passages of lorem ipsum available
-                  but the majority have suffered alteration in some form by
-                  injected humour or randomised words which don't look.
+                We have a wide range of aesthetic treatments including bariatric surgery, hair transplant and dental for you to choose from-all at an affordable price in Turkey.
+                Our experienced team is ready for you with a wide range of treatment options. Just decide the date and leave the rest to us.
                 </p>
 
                 <div className="about-two__single-wrap">
