@@ -1,17 +1,14 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated,
-  time-consuming ordeal, but once you get used to the process, it becomes a
-  soothing ritual that's worth the effort every time.
+title: Rising of Health Tourism
+date: 2022-08-06T18:58:43.527Z
+description: Health Tourism'S popularity rising day by day
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: https://cdn.pixabay.com/photo/2016/07/30/08/13/moscow-1556561_960_720.jpg
 tags:
-  - brewing
-  - chemex
+  - health tourism
 ---
-![chemex](/img/chemex.jpg)
+![Rising of health tourism](https://cdn.pixabay.com/photo/2016/07/30/08/13/moscow-1556561_960_720.jpg "Health Tourism title")
 
 22This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
 
