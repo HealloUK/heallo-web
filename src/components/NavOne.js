@@ -79,15 +79,22 @@ class NavOne extends Component {
                 />
               </Link>
               <div className="header__social">
+                {/*
                 <a href="#none">
                   <i className="fab fa-twitter"></i>
                 </a>
+                */}
+
                 <a target="blank" href="https://www.facebook.com/heallouk">
                   <i className="fab fa-facebook-square"></i>
                 </a>
+
+                {/*
                 <a href="#none">
                   <i className="fab fa-pinterest-p"></i>
                 </a>
+                */}
+                
                 <a target="blank" href="https://www.instagram.com/heallouk/">
                   <i className="fab fa-instagram"></i>
                 </a>

@@ -1,13 +1,6 @@
 import React from "react";
-import blogd1 from "../assets/images/blog-d-1-1.jpg";
-import author1 from "../assets/images/author-1-1.jpg";
-import comment1 from "../assets/images/comment-1-1.jpg";
-import comment2 from "../assets/images/comment-1-2.jpg";
-import lp1 from "../assets/images/lp-1-1.jpg";
-import lp2 from "../assets/images/lp-1-2.jpg";
-import lp3 from "../assets/images/lp-1-3.jpg";
 import PropTypes from "prop-types";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+//import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
 import { kebabCase, startCase } from "lodash";
 import { Link } from "gatsby";
@@ -23,7 +16,7 @@ const NewsDetails = ({
   group
 }) => {
   const PostContent = contentComponent || Content;
-
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   
   return (
     <section className="blog-details">
@@ -56,17 +49,17 @@ const NewsDetails = ({
                 </p>
               </div>
               <div className="social-block">
-                <a href="#none">
+                <a target="_blank" href={`https://twitter.com/intent/tweet/?text=${title}&url=${url}`}>
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#none">
+                <a target="_blank" href={`https://www.facebook.com/sharer.php?t=${title}&u=${url}`}>
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#none">
-                  <i className="fab fa-instagram"></i>
+                <a target="_blank" href={`https://linkedin.com/shareArticle?mini=true&title=${title}&url=${url}`}>
+                  <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#none">
-                  <i className="fab fa-dribbble"></i>
+                <a target="_blank" href={`mailto:?subject=${title}&body=${url}`}>
+                <i class="fas fa-envelope"></i>
                 </a>
               </div>
             </div>
