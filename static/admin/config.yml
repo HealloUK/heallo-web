@@ -15,9 +15,9 @@ public_folder: /img
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "src/pages/blog"
+    folder: "src/pages/health-news"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {
           label: "Template Key",
