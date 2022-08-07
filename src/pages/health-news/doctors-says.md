@@ -4,7 +4,7 @@ title: Rising of Health Tourism
 date: 2022-08-06T18:58:43.527Z
 description: Health Tourism'S popularity rising day by day
 featuredpost: false
-featuredimage: https://cdn.pixabay.com/photo/2016/07/30/08/13/moscow-1556561_960_720.jpg
+featuredimage: /img/chemex.jpg
 tags:
   - health tourism
 ---

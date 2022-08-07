@@ -53,7 +53,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     const blogPosts = posts.filter(edge => edge.node.frontmatter.templateKey == "blog-post")
     // Create health news pages
-    const postsPerPage = 2
+    const postsPerPage = 30
     const numPages = Math.ceil(blogPosts.length / postsPerPage)
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({

@@ -15,8 +15,6 @@ tags:
 ---
 ![Santorini alt](/img/istanbul.jpg "Santorini desc")
 
-<!--StartFragment-->
-
 # Turkey for Health Tourism
 
 Turkey is one of the best countries to visit for health tourism. The country is a popular destination for health care and medical tourism due to its cheap price, high quality, and excellent services.
@@ -48,5 +46,3 @@ There are also some smaller benefits such as being able to travel while receivin
 ## Conclusion
 
 Turkey has always been among the favorite destinations of British health tourists. The quality of the treatment you will receive in the health tourism centers of Turkey is good and health insurance is guaranteed by many providers. In addition, hotels and transportation services offered by these centers are convenient and cheap. So do not hesitate to visit health tourism center for your next vacation, because it is worth it!
-
-<!--EndFragment-->
