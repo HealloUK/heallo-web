@@ -9,7 +9,7 @@ description: >
   treatment or care that is not available in their home country, perhaps because
   the price is too high and/or there is a waiting list.
 featuredpost: false
-featuredimage: https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_960_720.jpg
+featuredimage: /img/istanbul.jpg
 tags:
   - health tourism
 ---
