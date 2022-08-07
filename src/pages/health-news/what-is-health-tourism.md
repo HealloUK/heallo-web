@@ -13,7 +13,7 @@ featuredimage: https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_9
 tags:
   - health tourism
 ---
-![Santorini alt](https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_960_720.jpg "Santorini desc")
+![Santorini alt](/img/istanbul.jpg "Santorini desc")
 
 <!--StartFragment-->
 
@@ -31,19 +31,13 @@ The Turkish Ministry of Health has developed strict regulations regarding foreig
 
 The benefits of health tourism are numerous.
 
-
-
 ## Save Money
 
 The most obvious benefit is that it can save you money. The price of healthcare in the UK is very high, and many people cannot afford to pay for private treatment. However, if you are willing to travel abroad for treatment, you can save a great deal of money by getting medical procedures done at a fraction of the cost.
 
-
-
 ## Experienced Doctors
 
 Another benefit is that you will receive better care than you would in your own country. In many cases, foreign doctors have more experience with certain procedures than their British counterparts do. This means that they are more likely to provide a better service, which could make all the difference when it comes to your health.
-
-
 
 ## More Choice
 
@@ -54,7 +48,5 @@ There are also some smaller benefits such as being able to travel while receivin
 ## Conclusion
 
 Turkey has always been among the favorite destinations of British health tourists. The quality of the treatment you will receive in the health tourism centers of Turkey is good and health insurance is guaranteed by many providers. In addition, hotels and transportation services offered by these centers are convenient and cheap. So do not hesitate to visit health tourism center for your next vacation, because it is worth it!
-
-
 
 <!--EndFragment-->
