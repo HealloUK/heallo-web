@@ -27,12 +27,12 @@ const News = ({ posts, pageContext, pagination=true }) => {
         <div className="post-pagination">
         
         {!isFirst && pagination && (<Link to= {`/health-news${prevPage}`}>
-            <i className="fa fa-angle-double-left"> Previous</i>
+            <i className="fa fa fa-angle-left"></i> Previous
           </Link>)
         }
 
         {!ifLast && pagination && (<Link to= {`/health-news${nextPage}`}>
-        <i className="fa fa-angle-double-right"> Next</i>
+        Next <i className="fa fa-angle-right"></i>
           </Link>)
         }
 
