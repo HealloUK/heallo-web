@@ -10,6 +10,8 @@ description: Facelit surgery is a surgical procedure that improves the
   of these stages.
 featuredpost: false
 featuredimage: /img/face-lift.jpg
+tags:
+  - Facelift
 ---
 ![](/img/face-lift.jpg)
 
