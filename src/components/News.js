@@ -12,7 +12,7 @@ const News = ({ posts, pageContext, pagination=true }) => {
 
   return (
     <section className="blog-one blog-page" style={{paddingTop: "120px"}}>
-      <div className="container">
+      <div className="container" style={{ minHeight: "680px"}}>
         <div className="row">
 
         {posts &&

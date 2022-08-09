@@ -4888,6 +4888,11 @@ a:visited {
 .blog-details {
   padding: 120px 0;
 }
+
+.blog-details p {
+  color: #35383a;
+}
+
 .blog-details .blog-one__single {
   margin-bottom: 0;
 }

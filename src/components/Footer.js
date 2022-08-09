@@ -4,7 +4,7 @@ const Footer = () => {
   
   return (
     <div>
-      <footer className="site-footer py-4">
+      <footer className="site-footer">
         
         <div className="site-footer__bottom">
           <div className="container">

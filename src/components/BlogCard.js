@@ -1,6 +1,7 @@
 import React from 'react';
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { Link } from 'gatsby'
+import { kebabCase, startCase } from "lodash";
 
 const BlogCard = ({ post }) => {
     return (
@@ -43,8 +44,8 @@ const BlogCard = ({ post }) => {
                 {post.frontmatter.tags &&
                   post.frontmatter.tags.map(( tag, i ) => (
                   <>
-                  <Link to={`/tags/${tag}`} className="blog-one__link">
-                      {tag}
+                  <Link to={`/tags/${kebabCase(tag)}`} className="blog-one__link">
+                      {startCase(tag)}
                   </Link>
                   {i == post.frontmatter.tags.length - 1 ? "" : ", "}
                   </>

@@ -11,7 +11,7 @@ description: >
 featuredpost: false
 featuredimage: /img/istanbul.jpg
 tags:
-  - health tourism
+  - health-tourism
 ---
 ![Santorini alt](/img/istanbul.jpg "Santorini desc")
 
