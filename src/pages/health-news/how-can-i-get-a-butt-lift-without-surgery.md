@@ -10,7 +10,7 @@ description: Injectable butt lifts are a type of cosmetic procedure that uses
 featuredpost: false
 featuredimage: /img/butt-jeans.jpg
 tags:
-  - Health Tourism
+  - Non-surgical-butt-lift
 ---
 ![](/img/butt-jeans.jpg)
 
