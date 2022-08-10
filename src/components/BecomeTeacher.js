@@ -8,9 +8,10 @@ function encode(data) {
   }
 
   class BecomeTeacher extends React.Component {
+
     constructor(props) {
         super(props);
-        this.state = { isValidated: false };
+        this.state = { isValidated: false, isLoading: false };
       }
 
       handleChange = (e) => {
@@ -20,6 +21,7 @@ function encode(data) {
       handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target;
+        this.setState({isLoading: true});
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -64,7 +66,7 @@ Contact us today to schedule a consultation!</p>
                             </div>
                             <form 
                                   className="become-teacher__form-content contact-form-validated"
-                                  name="contact"
+                                  name="get-a-quote"
                                   method="post"
                                   action="/contact/thanks/"
                                   data-netlify="true"
@@ -73,7 +75,7 @@ Contact us today to schedule a consultation!</p>
                             >
 
                                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                                <input type="hidden" name="form-name" value="contact" />
+                                <input type="hidden" name="form-name" value="get-a-quote" />
                                 <div hidden>
                                 <label>
                                     Don’t fill this out:{" "}
@@ -111,8 +113,11 @@ Contact us today to schedule a consultation!</p>
                                     required={true}
                                     placeholder="Phone Number"
                                 />
-                                <button type="submit" className="thm-btn become-teacher__form-btn">Apply
-                                    For It
+                                <button type="submit" className="thm-btn become-teacher__form-btn">
+                                    {
+                                        this.state.isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        <span class="sr-only">Loading...</span></>) : "Apply For It"
+                                    }
                                 </button>
                             </form>
                             <div className="result text-center"></div>

@@ -66,7 +66,7 @@ export default class AboutTwo extends Component {
 
                   <div className="about-two__single">
                     <div className="about-two__single-icon">
-                      <i className="kipso-icon-knowledge"></i>
+                    <i class="kipso-icon-health"></i>
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">

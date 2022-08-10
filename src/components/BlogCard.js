@@ -8,7 +8,9 @@ const BlogCard = ({ post }) => {
         <div className="col-lg-4" key={post.id}>
             <div className="blog-one__single">
               <div className="blog-one__image">
-              {post.frontmatter.featuredimage ? (
+
+              <Link to={post.fields.slug}>
+                {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
                         imageInfo={{
@@ -23,10 +25,13 @@ const BlogCard = ({ post }) => {
                         }}
                       />
                     </div>
-                  ) : null}
-                <Link className="blog-one__plus" to={post.fields.slug}>
-                  <i className="kipso-icon-plus-symbol"></i>
+                    ) : null}
+
+                  <div className="blog-one__plus">
+                    <i className="kipso-icon-plus-symbol"></i>
+                  </div>
                 </Link>
+                
               </div>
               <div className="blog-one__content text-center">
                 

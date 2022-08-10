@@ -64,9 +64,6 @@ const NewsDetails = ({
               </div>
             </div>
             
-            
-            {/*Form will be here*/}
-
 
 
           </div>

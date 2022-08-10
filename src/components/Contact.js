@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Contact = ({ handleChange, handleSubmit}) => {
+const Contact = ({ handleChange, handleSubmit, isLoading}) => {
 
 
   return (
@@ -106,7 +106,10 @@ const Contact = ({ handleChange, handleSubmit}) => {
                     />
                 <div className="text-center">
                   <button type="submit" className="contact-one__btn thm-btn">
-                    Send
+                  {
+                      isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                      <span class="sr-only">Loading...</span></>) : "Send"
+                  }
                   </button>
                 </div>
               </div>

@@ -14,7 +14,7 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isValidated: false };
+    this.state = { isValidated: false, isLoading: false };
   }
 
   handleChange = (e) => {
@@ -24,6 +24,7 @@ export default class Index extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    this.setState({isLoading: true});
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -40,7 +41,7 @@ export default class Index extends React.Component {
     return (
       <Layout pageTitle="Contact">
             <NavOne />
-            <Contact handleChange={this.handleChange} handleSubmit={this.handleSubmit}  />
+            <Contact handleChange={this.handleChange} handleSubmit={this.handleSubmit} isLoading={this.state.isLoading}  />
             <Footer />
       </Layout>
     );
