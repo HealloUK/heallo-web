@@ -14,7 +14,7 @@ function encode(data) {
 
     constructor(props) {
         super(props);
-        this.state = { isValidated: false, isLoading: false };
+        this.state = { isValidated: false, isLoading: false, url: this.url };
       }
 
       handleChange = (e) => {
@@ -86,7 +86,7 @@ Contact us today to schedule a consultation!</p>
                                 </label>
                                 </div>
 
-                                <input type="text" name="url" value={`a${this.url}`}/>
+                                <input type="text" name="url" value={`a${this.state.url}`}/>
 
                                 <input
                                     className="input"
