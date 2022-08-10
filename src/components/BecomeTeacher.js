@@ -86,7 +86,6 @@ Contact us today to schedule a consultation!</p>
                                 </label>
                                 </div>
 
-                                <input type="text" name="url" value={`a${this.state.url}`}/>
 
                                 <input
                                     className="input"
@@ -118,6 +117,9 @@ Contact us today to schedule a consultation!</p>
                                     required={true}
                                     placeholder="Phone Number"
                                 />
+
+                                <input type="hidden" name="url" value={`${this.state.url}`}/>
+
                                 <button type="submit" className="thm-btn become-teacher__form-btn">
                                     {
                                         this.state.isLoading ? (<><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
