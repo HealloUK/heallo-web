@@ -9,6 +9,9 @@ function encode(data) {
 
   class BecomeTeacher extends React.Component {
 
+    url = typeof window !== 'undefined' ? window.location.href : '';
+    
+
     constructor(props) {
         super(props);
         this.state = { isValidated: false, isLoading: false };
@@ -82,6 +85,8 @@ Contact us today to schedule a consultation!</p>
                                     <input name="bot-field" onChange={this.handleChange} />
                                 </label>
                                 </div>
+
+                                <input type="hidden" name="url" value={this.url}/>
 
                                 <input
                                     className="input"
