@@ -1,26 +1,30 @@
+const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 
 const sendThankYouEmail = async ({ email }) => {
   return new Promise((resolve, reject) => {
     console.log('Sending the email');
     const { MG_API_KEY: apiKey, MG_DOMAIN: domain } = process.env;
-    const mailgun = Mailgun({
-      apiKey,
-      domain
-    });
+    
+    const mailgun = new Mailgun(formData);
+    const client = mailgun.client({username: 'api', key: apiKey});
 
-    const mailData = {
-      from: 'Stefan Judis <no-reply@stefanjudis.com>',
+    const messageData = {
+      from: 'Excited User <me@samples.mailgun.org>',
       to: email,
-      subject: 'Thank you for your interest',
-      text: "I'll come back to you asap!"
+      subject: 'Hello',
+      text: 'Testing some Mailgun awesomeness!'
     };
 
-    mailgun.messages().send(mailData, err => {
-      if (err) return reject(err);
+    client.messages.create(domain, messageData)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
 
-      resolve();
-    });
+
   });
 };
 
@@ -29,7 +33,7 @@ module.exports.handler = async function(event, context) {
 
   try {
 	  const data = JSON.parse(event.body)
-
+    
     await sendThankYouEmail(data);
 
 	  console.log(data)
