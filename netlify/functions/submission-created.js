@@ -35,11 +35,9 @@ module.exports.handler = async function(event, context) {
 
   try {
 	  const data = JSON.parse(event.body)
-    console.log(data.payload)
     
-    await sendThankYouEmail(data);
+    await sendThankYouEmail(data.payload);
 
-	  console.log(data)
 	  return {
 	    // return null to show no errors
 	    statusCode: 200, // http status code
