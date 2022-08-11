@@ -34,8 +34,8 @@ const sendThankYouEmail = async ({ email }) => {
 module.exports.handler = async function(event, context) {
 
   try {
-	  const data = JSON.parse(event.body.payload)
-    console.log(data)
+	  const data = JSON.parse(event.body)
+    console.log(data.payload)
     
     await sendThankYouEmail(data);
 
