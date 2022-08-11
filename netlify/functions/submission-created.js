@@ -48,7 +48,7 @@ const saveUser = async ({ email, name, phone }) => {
       apiKey
     });
 
-    const base = Airtable.base(AT_BASE_1);
+    const base = new Airtable({ apiKey }).base(AT_BASE_1);
 
 
     base(AT_TABLE_1).create([
