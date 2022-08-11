@@ -25,9 +25,11 @@ const sendThankYouEmail = async ({ email, name }) => {
     client.messages.create(domain, messageData)
       .then((res) => {
         console.log(res);
+        resolve();
       })
       .catch((err) => {
         console.error(err);
+        reject();
       });
 
 
@@ -69,6 +71,7 @@ const saveUser = async ({ email, name, phone }) => {
       records.forEach(function (record) {
         console.log(record.getId());
       });
+      resolve();
     });
 
 
