@@ -10,15 +10,15 @@ const sendThankYouEmail = async ({ email, name }) => {
 
     const mailgun = new Mailgun(formData);
     const client = mailgun.client({ username: 'api', key: apiKey });
-    const firstName = name.substr(0, name.indexOf(" "))
+    name = name.substr(0, name.indexOf(" "))
 
     const messageData = {
       from: 'Customer Service <welcome@heallo.co.uk>',
       to: email,
-      subject: `Hey ${firstName}, We will reach you soon`,
+      subject: `Hey ${name}, We will reach you soon`,
       template: 'welcome',
       't:variables': JSON.stringify({ // be sure to stringify your payload
-        firstName,
+        name,
       })
     };
 
@@ -41,7 +41,7 @@ const saveUser = async ({ email, name, phone }) => {
   return new Promise((resolve, reject) => {
     console.log('Saving user datas on airtable');
 
-    const { AT_API_KEY: apiKey, AT_BASE, AT_TABLE } = process.env;
+    const { AT_API_KEY: apiKey, AT_BASE_1, AT_TABLE_1 } = process.env;
 
     Airtable.configure({
       endpointUrl: 'https://api.airtable.com',
@@ -51,7 +51,7 @@ const saveUser = async ({ email, name, phone }) => {
     const base = Airtable.base(AT_BASE_1);
 
 
-    base('Applicants').create([
+    base(AT_TABLE_1).create([
       {
         "fields": {
           "Name": name,
