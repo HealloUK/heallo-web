@@ -1,10 +1,9 @@
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 
-const sendThankYouEmail = async ({ email }) => {
+const sendThankYouEmail = async ({ email, name }) => {
   return new Promise((resolve, reject) => {
     console.log('Sending the email');
-    console.log(email)
     
     const { MG_API_KEY: apiKey, MG_DOMAIN: domain } = process.env;
     
@@ -12,10 +11,11 @@ const sendThankYouEmail = async ({ email }) => {
     const client = mailgun.client({username: 'api', key: apiKey});
 
     const messageData = {
-      from: 'Customer Service <thanks@heallo.co.uk>',
+      from: 'Customer Service <welcome@heallo.co.uk>',
       to: email,
-      subject: 'Hello',
-      text: 'Testing some Mailgun awesomeness!'
+      subject: `Hey ${name}, We will reach you soon`,
+      template: 'welcome',
+      'h:X-Mailgun-Variables': {name: name}
     };
 
     client.messages.create(domain, messageData)
