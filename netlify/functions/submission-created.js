@@ -40,6 +40,7 @@ const sendThankYouEmail = async ({ email, name }) => {
 const saveUser = async ({ email, name, lastname, phone }) => {
   return new Promise((resolve, reject) => {
     console.log('Saving user datas on airtable');
+    console.log(phone)
 
     const { AT_API_KEY: apiKey, AT_BASE_1, AT_TABLE_1 } = process.env;
 
@@ -54,7 +55,7 @@ const saveUser = async ({ email, name, lastname, phone }) => {
     base(AT_TABLE_1).create([
       {
         "fields": {
-          "Name": name + " " + lastname,
+          "Name": name + lastname != undefined ? ` ${lastname}` : "",
           "Stage": "Waiting for first contact",
           "Applying for": [
             "recyomr5B9pxHWqu2"
@@ -86,6 +87,7 @@ module.exports.handler = async function (event, context) {
     const data = JSON.parse(event.body)
 
     await sendThankYouEmail(data.payload);
+    console.log(data.payload)
     await saveUser(data.payload);
 
     return {
