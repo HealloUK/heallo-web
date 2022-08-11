@@ -15,7 +15,9 @@ const sendThankYouEmail = async ({ email, name }) => {
       to: email,
       subject: `Hey ${name}, We will reach you soon`,
       template: 'welcome',
-      'h:X-Mailgun-Variables': {name: name}
+      't:variables': JSON.stringify({ // be sure to stringify your payload
+        name,
+      })
     };
 
     client.messages.create(domain, messageData)
