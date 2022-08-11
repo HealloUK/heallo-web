@@ -1,4 +1,4 @@
-const Mailgun = require('mailgun-js');
+const Mailgun = require('mailgun.js');
 
 const sendThankYouEmail = async ({ email }) => {
   return new Promise((resolve, reject) => {
@@ -29,7 +29,7 @@ module.exports.handler = async function(event, context) {
 
   try {
 	  const data = JSON.parse(event.body)
-    
+
     await sendThankYouEmail(data);
 
 	  console.log(data)
