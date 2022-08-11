@@ -12,7 +12,7 @@ const sendThankYouEmail = async ({ email }) => {
     const client = mailgun.client({username: 'api', key: apiKey});
 
     const messageData = {
-      from: 'Excited User <me@samples.mailgun.org>',
+      from: 'Customer Service <thanks@heallo.co.uk>',
       to: email,
       subject: 'Hello',
       text: 'Testing some Mailgun awesomeness!'
