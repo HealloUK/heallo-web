@@ -37,7 +37,7 @@ const sendThankYouEmail = async ({ email, first_name }) => {
 };
 
 
-const saveUser = async ({ email, name, lastname, data }) => {
+const saveUser = async ({ email, name, first_name, last_name, data }) => {
   return new Promise((resolve, reject) => {
     console.log('Saving user datas on airtable');
 
@@ -54,7 +54,7 @@ const saveUser = async ({ email, name, lastname, data }) => {
     base(AT_TABLE_1).create([
       {
         "fields": {
-          "Name": name + lastname != undefined ? ` ${lastname}` : "",
+          "Name": first_name + " " + last_name,
           "Stage": "Waiting for first contact",
           "Applying for": [
             "recyomr5B9pxHWqu2"
