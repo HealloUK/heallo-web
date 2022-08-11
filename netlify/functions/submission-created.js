@@ -2,7 +2,7 @@ const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 const Airtable = require('airtable');
 
-const sendThankYouEmail = async ({ email, name }) => {
+const sendThankYouEmail = async ({ email, first_name }) => {
   return new Promise((resolve, reject) => {
     console.log('Sending the email');
 
@@ -10,7 +10,7 @@ const sendThankYouEmail = async ({ email, name }) => {
 
     const mailgun = new Mailgun(formData);
     const client = mailgun.client({ username: 'api', key: apiKey });
-    name = name.substr(0, name.indexOf(" "))
+    const name = first_name;
 
     const messageData = {
       from: 'Customer Service <welcome@heallo.co.uk>',
@@ -37,10 +37,9 @@ const sendThankYouEmail = async ({ email, name }) => {
 };
 
 
-const saveUser = async ({ email, name, lastname, phone }) => {
+const saveUser = async ({ email, name, lastname, data }) => {
   return new Promise((resolve, reject) => {
     console.log('Saving user datas on airtable');
-    console.log(phone)
 
     const { AT_API_KEY: apiKey, AT_BASE_1, AT_TABLE_1 } = process.env;
 
@@ -61,7 +60,8 @@ const saveUser = async ({ email, name, lastname, phone }) => {
             "recyomr5B9pxHWqu2"
           ],
           "Email address": email,
-          "Phone": phone,
+          "Phone": data.phone,
+          "Referrer": data.referrer,
         }
       },
     ], function (err, records) {
@@ -87,7 +87,6 @@ module.exports.handler = async function (event, context) {
     const data = JSON.parse(event.body)
 
     await sendThankYouEmail(data.payload);
-    console.log(data.payload)
     await saveUser(data.payload);
 
     return {
