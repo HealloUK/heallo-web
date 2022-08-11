@@ -2751,6 +2751,11 @@
   "resolved" "https://registry.npmjs.org/@types/node/-/node-8.10.66.tgz"
   "version" "8.10.66"
 
+"@types/node@>=8.0.0 <15":
+  "integrity" "sha512-MhbCWN18R4GhO8ewQWAFK4TGQdBpXWByukz7cWyJmXhvRuCIaM/oWytGPqVmDzgEnnaIc9ss6HbU5mUi+vyZPA=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-14.18.23.tgz"
+  "version" "14.18.23"
+
 "@types/node@16.9.1":
   "integrity" "sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-16.9.1.tgz"
@@ -3107,14 +3112,14 @@
   "resolved" "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   "version" "4.2.2"
 
-"abort-controller@3.0.0":
+"abort-controller@^3.0.0", "abort-controller@3.0.0":
   "integrity" "sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg=="
   "resolved" "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
   "version" "3.0.0"
   dependencies:
     "event-target-shim" "^5.0.0"
 
-"abortcontroller-polyfill@^1.1.9":
+"abortcontroller-polyfill@^1.1.9", "abortcontroller-polyfill@^1.4.0":
   "integrity" "sha512-zetDJxd89y3X99Kvo4qFx8GKlt6GsvN3UcRZHwU6iFA/0KiOmhkTVhe8oRoTBiTVPZu09x3vCra47+w8Yz1+2Q=="
   "resolved" "https://registry.npmjs.org/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.3.tgz"
   "version" "1.7.3"
@@ -3164,6 +3169,17 @@
   dependencies:
     "loader-utils" "^2.0.0"
     "regex-parser" "^2.2.11"
+
+"airtable@^0.11.4":
+  "integrity" "sha512-y8sEi/sMEdgtgvv0V8AhJyFQB9za+6qGIxllt60Ey5ELBgu+bNEc1hjY2aqzp9C38p0ORfaeRS5RSFWlcq11Aw=="
+  "resolved" "https://registry.npmjs.org/airtable/-/airtable-0.11.4.tgz"
+  "version" "0.11.4"
+  dependencies:
+    "@types/node" ">=8.0.0 <15"
+    "abort-controller" "^3.0.0"
+    "abortcontroller-polyfill" "^1.4.0"
+    "lodash" "^4.17.21"
+    "node-fetch" "^2.6.7"
 
 "ajv-errors@^3.0.0":
   "integrity" "sha512-V3wD15YHfHz6y0KdhYFjyy9vWtEVALT9UrxfN3zqlI6dMioHnJrqOYfyPKol3oqrnCM9uwkcdCwkJ0WUcbLMTQ=="
