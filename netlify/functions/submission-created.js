@@ -37,6 +37,8 @@ const sendThankYouEmail = async ({ email, name }) => {
 
 const saveUser = async ({ email, name, phone }) => {
   return new Promise((resolve, reject) => {
+    console.log('Saving user datas on airtable');
+
     const { AT_API_KEY: apiKey, AT_BASE, AT_TABLE } = process.env;
 
     Airtable.configure({
