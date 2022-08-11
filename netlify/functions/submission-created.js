@@ -4,6 +4,8 @@ const Mailgun = require('mailgun.js');
 const sendThankYouEmail = async ({ email }) => {
   return new Promise((resolve, reject) => {
     console.log('Sending the email');
+    console.log(email)
+    
     const { MG_API_KEY: apiKey, MG_DOMAIN: domain } = process.env;
     
     const mailgun = new Mailgun(formData);
@@ -33,6 +35,7 @@ module.exports.handler = async function(event, context) {
 
   try {
 	  const data = JSON.parse(event.body)
+    console.log(data)
     
     await sendThankYouEmail(data);
 
