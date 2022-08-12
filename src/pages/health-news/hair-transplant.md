@@ -8,6 +8,8 @@ description: In this article, after understanding what Hair Transplant is, we
   and complications.
 featuredpost: false
 featuredimage: /img/hair-transplant.jpg
+tags:
+  - hair-transplant
 ---
 ![](/img/hair-transplant.jpg)
 

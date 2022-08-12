@@ -13,7 +13,7 @@ featuredimage: /img/istanbul.jpg
 tags:
   - health-tourism
 ---
-![Santorini alt](/img/istanbul.jpg "Santorini desc")
+![Health tourism in Turkey](/img/istanbul.jpg "Health tourism in Turkey")
 
 # Turkey for Health Tourism
 
