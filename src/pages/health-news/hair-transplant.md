@@ -33,7 +33,6 @@ A hair transplant is a surgical procedure that moves hair follicles from one par
 
 ## **Who is a Good Candidate for Hair Transplant?**
 
-
 First and foremost, it is important to have realistic expectations about what hair transplant surgery can achieve.
 It is not a miracle cure – it will not restore all of your lost hair or make you look like you did in your twenties again.
 
@@ -51,7 +50,6 @@ If you have any doubts about the health of your donor area, it may be wise to co
 
 * Long lasting solution
 * Simple surgical procedure with minimal downtime
-* No medication required after surgery (except pain medication)
 * Natural look
 * The person's own hair is used in the procedure
 * Safe
@@ -65,21 +63,21 @@ If you have any doubts about the health of your donor area, it may be wise to co
 
 ## **How is Hair Transplant Performed?**
 
-After cleaning the scalp, Surgeon applies local anesthesia with a small needle to the back of the head.
+After cleaning the scalp, Surgeon applies **local anesthesia** with a small needle to the back of the head.
 
 There are two main types of hair transplant surgery: **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)**. FUT is more common, but FUE is becoming more popular because it causes less scarring.
 
-Surgeon uses one of the methods of follicular unit transplantation (FUT) and follicular unit extraction (FUE) to obtain follicles.
+Surgeon uses one of the methods of **follicular unit transplantation (FUT)** and **follicular unit extraction (FUE)** to obtain follicles.
 
-#### **In follicular unit transplantation (FUT):**
+##### **In follicular unit transplantation (FUT):**
 
 A strip of skin containing many hair follicles is removed from the back of the head and then divided into small units called grafts. These grafts are transplanted to bald or thinning areas on top of the head.
 
-#### **In follicular unit extraction (FUE);**
+##### **In follicular unit extraction (FUE);**
 
 Individual hairs are removed one at a time from around the scalp and then transplanted to bald or thinning areas.
 
-A single hair transplant session can take approximately **6-8 hours**. You may need **3-4 sessions** to achieve the desired result. For the healing process, it is necessary to wait a few months between sessions.
+A single hair transplant session can take approximately **6-8 hours**. You may need **3-4 sessions** to achieve the desired result. For the healing process, it is necessary to wait a **few months** between sessions.
 
 ## **Hair Transplant Recovery**
 
@@ -104,4 +102,4 @@ If you experience any of these problems, contact your doctor.
 
 Many different factors can cause hair loss. There are many different treatments to solve this problem. Each treatment may not be the right solution for everyone. For this reason, it is recommended that you do a detailed research and get opinions from many different doctors before making a decision. Only in this way, you can find the right treatment for you and increase your chances of getting a successful result.
 
-As Heallo Team, We are always ready to design every stage of your Hair Transplant procedure in the most perfect way. You can contact us using the form below and get free consultation.
+As **Heallo** Team, We are always ready to design every stage of your **Hair Transplant** procedure in the most perfect way. You can contact us using the form below and **get free consultation**.
