@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Hair Transplants and Treatment 2022
+title: Hair Transplant - Procedure, Recovery, Risks 2022
 date: 2022-08-12T14:29:49.818Z
 description: In this article, after understanding what Hair Transplant is, we
   will talk about the types of hair transplant, who is a good candidate, the
