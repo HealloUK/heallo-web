@@ -47,10 +47,14 @@ const Layout = (props) => {
         <link rel="icon" type="image/png" sizes="32x32" href={fav32} />
         <link rel="icon" type="image/png" sizes="16x16" href={fav16} />
 
+      {/*
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,800%7CSatisfy&display=swap"
           rel="stylesheet"
         />
+
+      */}
+
       </Helmet>
 
       <div className="page-wrapper">{props.children}</div>

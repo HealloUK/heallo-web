@@ -1276,6 +1276,16 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fontsource/poppins@^4.5.9":
+  "integrity" "sha512-PMHOYeUpdmdN1xk13aGvhvZZrv9Zt3ubx2PmDvnROHgefm0ixpFd3ogAi0fY/aWtlkUdvgt0mSkGGbtt5i4MsQ=="
+  "resolved" "https://registry.npmjs.org/@fontsource/poppins/-/poppins-4.5.9.tgz"
+  "version" "4.5.9"
+
+"@fontsource/satisfy@^4.5.6":
+  "integrity" "sha512-EbEvcgCAuG7xKzhpI4HV04flTrW/aWXNSH9v3Pje3WbGRFj+4Ky64DbTiMbKpjolpErrQAl3SmXeqq6YvD640w=="
+  "resolved" "https://registry.npmjs.org/@fontsource/satisfy/-/satisfy-4.5.6.tgz"
+  "version" "4.5.6"
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@1.4.0":
   "integrity" "sha512-oXhiaPtYTGYqGZlazYRUabWVHWx5z6sAyBVLhUnpsKcBsK815cET+mjeWDKpmvJmFTKHC72Bvy1WIEnW3++YxA=="
   "resolved" "https://registry.npmjs.org/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.4.0.tgz"
@@ -6599,9 +6609,9 @@
     "yurnalist" "^2.1.0"
 
 "gatsby-core-utils@^3.19.0", "gatsby-core-utils@^3.5.2":
-  "integrity" "sha512-cjXs9DsXkPZt+UdiLHxtq+rGMGVrcnM0KwkawlruvPchI7lqGNv9CScqlvYPxx1dBhu3zSZS26EBALMlFhyOJA=="
-  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.19.0.tgz"
-  "version" "3.19.0"
+  "integrity" "sha512-D3DIulUFoPvexwsGYFkfESL1Dd3qsxBfj8OBi8vsd6BuXrA6MbLtX3j5+BLVxfKkN2wF7XN6b3/DH+JGNuhh2A=="
+  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.20.0.tgz"
+  "version" "3.20.0"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "ci-info" "2.0.0"
