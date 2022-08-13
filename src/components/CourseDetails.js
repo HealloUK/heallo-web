@@ -104,7 +104,7 @@ const CourseDetails = ({details}) => {
 
                   {details.whenconsider.map((item) => (
                     <li>
-                    <div className="course-details__curriculum-list-left">
+                    <div className="course-details__curriculum-list-left treatment-detail-item">
                       <div className="course-details__meta-icon video-icon">
                       </div>
                       <div>{item}</div>{" "}
@@ -126,7 +126,7 @@ const CourseDetails = ({details}) => {
 
                   {details.expectations.map((item) => (
                     <li>
-                    <div className="course-details__curriculum-list-left">
+                    <div className="course-details__curriculum-list-left treatment-detail-item">
                       <div className="course-details__meta-icon video-icon">
                       </div>
                       <div>{item}</div>{" "}

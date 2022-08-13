@@ -101,7 +101,7 @@ class NavOne extends Component {
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
-              <button className="menu-toggler">
+              <button className="menu-toggler" aria-label="Toggle Menu">
                 <span className="kipso-icon-menu"></span>
               </button>
             </div>
