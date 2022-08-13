@@ -83,7 +83,7 @@ const CourseDetails = ({details}) => {
 
               <div className="tab-content course-details__tab-content ">
                 <div
-                  className="tab-pane show active animated fadeInUp"
+                  className="tab-pane show active"
                   role="tabpanel"
                   id="overview"
                   aria-labelledby="overview-tab"
@@ -95,7 +95,7 @@ const CourseDetails = ({details}) => {
 
 
                 <div
-                  className="tab-pane  animated fadeInUp"
+                  className="tab-pane"
                   role="tabpanel"
                   id="consider"
                   aria-labelledby="consider-tab"
@@ -117,7 +117,7 @@ const CourseDetails = ({details}) => {
 
 
                 <div
-                  className="tab-pane  animated fadeInUp"
+                  className="tab-pane"
                   role="tabpanel"
                   id="expectations"
                   aria-labelledby="expectations-tab"
