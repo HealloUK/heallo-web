@@ -12,12 +12,12 @@ const TopCourses = () => {
             <Link to="/treatments/nose-job-rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/rhino-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/rhino-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Rhinoplasty
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -27,12 +27,12 @@ const TopCourses = () => {
             <Link to="/treatments/hair-transplantation">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/hair-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/hair-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Hair Transplant
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -42,12 +42,12 @@ const TopCourses = () => {
             <Link to="/treatments/breast-augmentation-boob-job">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/breast-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/breast-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Breast Augmentation
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -57,12 +57,12 @@ const TopCourses = () => {
             <Link to="/treatments/breast-reduction">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/breast-reduction.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/breast-reduction.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Breast Reduction
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -72,12 +72,12 @@ const TopCourses = () => {
             <Link to="/treatments/gastric-sleeve-surgery-weight-loss">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/gastric.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/gastric.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Gastric Sleeve
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -87,12 +87,12 @@ const TopCourses = () => {
             <Link to="/treatments/tummy-tuck-abdominoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/tummy-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/tummy-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Tummy Tuck
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -102,12 +102,12 @@ const TopCourses = () => {
             <Link to="/treatments/liposuction">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/lipo-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/lipo-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                   Liposuction
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -117,12 +117,12 @@ const TopCourses = () => {
             <Link to="/treatments/brazilian-butt-lift-bbl-buttock-lift">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/butt-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/butt-1.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                     Butt Lift
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -132,12 +132,12 @@ const TopCourses = () => {
             <Link to="/treatments/face-lift-surgery-rhytidectomy">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="blurred" src="../../static/img/treatments/face-lift.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/face-lift.jpg" alt="" />
                 </div>
                 <div className="treatment-one__content">
-                  <a className="treatment-one__category">
+                  <span className="treatment-one__category">
                     Face Lift
-                  </a>
+                  </span>
                 </div>
               </div>
             </Link>

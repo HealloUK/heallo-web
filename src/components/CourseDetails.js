@@ -107,7 +107,7 @@ const CourseDetails = ({details}) => {
                     <div className="course-details__curriculum-list-left">
                       <div className="course-details__meta-icon video-icon">
                       </div>
-                      <a href="#none">{item}</a>{" "}
+                      <div>{item}</div>{" "}
                     </div>
                   </li>
                   ))}
@@ -129,7 +129,7 @@ const CourseDetails = ({details}) => {
                     <div className="course-details__curriculum-list-left">
                       <div className="course-details__meta-icon video-icon">
                       </div>
-                      <a href="#none">{item}</a>{" "}
+                      <div>{item}</div>{" "}
                     </div>
                   </li>
                   ))}
