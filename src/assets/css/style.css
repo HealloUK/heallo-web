@@ -4899,6 +4899,9 @@ a:visited {
   font-weight: 500;
   margin: 0 0 30px
 }
+.blog-details li {
+  color: #55595b;
+}
 .blog-details .blog-one__single {
   margin-bottom: 0;
 }
