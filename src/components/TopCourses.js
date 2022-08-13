@@ -12,7 +12,7 @@ const TopCourses = () => {
             <Link to="/treatments/nose-job-rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage placeholder="none" src="../../static/img/treatments/rhino-1.jpg" alt="" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/rhino-1.jpg" alt="Rhinoplasty" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
