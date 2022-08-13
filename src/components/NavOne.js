@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 import logo from "../assets/images/logo-dark-2.png";
+import { StaticImage } from "gatsby-plugin-image"
 class NavOne extends Component {
   constructor() {
     super();
@@ -71,11 +72,12 @@ class NavOne extends Component {
           <div className="container clearfix">
             <div className="logo-box clearfix">
               <Link to="/" className="navbar-brand">
-                <img
-                  src={logo}
+                <StaticImage
+                  src="../../static/img/logo-dark-2.png"
                   className="main-logo"
                   width="128"
-                  alt="Awesome alter text"
+                  alt="Heallo Health Tourism"
+                  placeholder="none"
                 />
               </Link>
               <div className="header__social">
