@@ -6690,6 +6690,13 @@
     "@parcel/transformer-raw" "2.6.2"
     "@parcel/transformer-react-refresh-wrap" "2.6.2"
 
+"gatsby-plugin-canonical-urls@^4.20.0":
+  "integrity" "sha512-SggHUsTZgNLnYCh3jWYr9IpEmm5tOJButvfkNk2z0EM0D8aw4TRQvWDBvUqT527Qg38onOFOoy+TSM09iajFYA=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-4.20.0.tgz"
+  "version" "4.20.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
 "gatsby-plugin-image@^2.0.0":
   "integrity" "sha512-Eu2LY1nfkTdr5hJip5TcZNUqzWQps2Zq4KnPJmgmxpGOYIbrgu8B2kEKQM5hKoe5flu4Xu5gj+CObEMlBj5K1w=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.19.0.tgz"

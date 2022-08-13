@@ -22,6 +22,9 @@ const Layout = (props) => {
       <Helmet
         title={title}
         titleTemplate={`%s | Heallo UK`}
+        htmlAttributes={{
+          lang: "en"
+        }}
       >
 
         <meta charSet="UTF-8" />

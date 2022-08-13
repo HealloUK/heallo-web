@@ -88,6 +88,13 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-canonical-urls",
+      options: {
+        siteUrl: "https://heallo.co.uk",
+        stripQueryString: true,
+      }
+    },
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.heallo.co.uk",
