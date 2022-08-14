@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Heallo UK",
     description: "We design your perfect medical journey in Turkey",
-    siteUrl: "https://www.heallo.co.uk",
+    siteUrl: "https://heallo.co.uk",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
