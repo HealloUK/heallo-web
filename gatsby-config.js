@@ -82,9 +82,14 @@ module.exports = {
     }, // must be after other CSS plugins
     "gatsby-plugin-netlify", // make sure to keep it last in the array
     {
-      resolve: "gatsby-plugin-sitemap",
+      resolve: "gatsby-plugin-advanced-sitemap",
       options: {
-        excludes: ["/admin","/contact/thanks"]
+        exclude: [
+          "/admin",
+          "/contact/thanks",
+          "/404",
+          "/404.html",
+        ]
       }
     },
     {
