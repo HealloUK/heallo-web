@@ -148,7 +148,10 @@ class NavOne extends Component {
 
           </div>
         </nav>
-        <div className="site-header__decor">
+        
+        {
+
+        this.props.decor!="none" && (<div className="site-header__decor">
           <div className="site-header__decor-row">
             <div className="site-header__decor-single">
               <div className="site-header__decor-inner-1"></div>
@@ -160,7 +163,12 @@ class NavOne extends Component {
               <div className="site-header__decor-inner-3"></div>
             </div>
           </div>
-        </div>
+        </div>)
+
+        }
+
+
+
       </header>
     );
   }
