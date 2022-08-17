@@ -102,7 +102,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.heallo.co.uk",
+        host: "https://heallo.co.uk",
         sitemap: 'https://heallo.co.uk/sitemap-pages.xml',
         policy: [{userAgent: '*', allow: '/', disallow: ['/admin']}]
       }
