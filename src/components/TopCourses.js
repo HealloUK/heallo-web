@@ -9,6 +9,21 @@ const TopCourses = () => {
         <div className="row">
 
         <div className="col-lg-4">
+            <Link to="/stem-cell-therapy">
+              <div className="course-one__single">
+                <div className="treatment-one__image">
+                  <StaticImage placeholder="none" src="../../static/img/treatments/stem-1.jpg" alt="Stem Cell Therapy" layout="fullWidth" />
+                </div>
+                <div className="treatment-one__content">
+                  <span className="treatment-one__category">
+                  Stem Cell Therapy
+                  </span>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+        <div className="col-lg-4">
             <Link to="/treatments/nose-job-rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
@@ -92,21 +107,6 @@ const TopCourses = () => {
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
                   Tummy Tuck
-                  </span>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="col-lg-4">
-            <Link to="/treatments/liposuction">
-              <div className="course-one__single">
-                <div className="treatment-one__image">
-                  <StaticImage placeholder="none" src="../../static/img/treatments/lipo-1.jpg" alt="Liposuction" layout="fullWidth" />
-                </div>
-                <div className="treatment-one__content">
-                  <span className="treatment-one__category">
-                  Liposuction
                   </span>
                 </div>
               </div>
