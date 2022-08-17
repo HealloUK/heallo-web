@@ -106,6 +106,14 @@ module.exports = {
         sitemap: 'https://heallo.co.uk/sitemap-pages.xml',
         policy: [{userAgent: '*', allow: '/', disallow: ['/admin']}]
       }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-57QBC32",
+        enableWebVitalsTracking: true,
+        includeInDevelopment: true
+      }
     }
   ],
 };
