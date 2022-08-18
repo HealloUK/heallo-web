@@ -12,7 +12,7 @@ const TopCourses = () => {
             <Link to="/stem-cell-therapy">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/stem-1.jpg" alt="Stem Cell Therapy" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/stem-1.jpg" alt="Stem Cell Therapy" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -27,7 +27,7 @@ const TopCourses = () => {
             <Link to="/treatments/nose-job-rhinoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/rhino-1.jpg" alt="Rhinoplasty" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/rhino-1.jpg" alt="Rhinoplasty" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -42,7 +42,7 @@ const TopCourses = () => {
             <Link to="/treatments/hair-transplantation">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/hair-1.jpg" alt="Hair Transplant" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/hair-1.jpg" alt="Hair Transplant" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -57,7 +57,7 @@ const TopCourses = () => {
             <Link to="/treatments/breast-augmentation-boob-job">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/breast-1.jpg" alt="Breast Augmentation" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/breast-1.jpg" alt="Breast Augmentation" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -72,7 +72,7 @@ const TopCourses = () => {
             <Link to="/treatments/breast-reduction">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/breast-reduction.jpg" alt="Breast Reduction" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/breast-reduction.jpg" alt="Breast Reduction" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -87,7 +87,7 @@ const TopCourses = () => {
             <Link to="/treatments/gastric-sleeve-surgery-weight-loss">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/gastric.jpg" alt="Gastric Sleeve" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/gastric.jpg" alt="Gastric Sleeve" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -102,7 +102,7 @@ const TopCourses = () => {
             <Link to="/treatments/tummy-tuck-abdominoplasty">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/tummy-1.jpg" alt="Tummy Tuck" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/tummy-1.jpg" alt="Tummy Tuck" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -117,7 +117,7 @@ const TopCourses = () => {
             <Link to="/treatments/brazilian-butt-lift-bbl-buttock-lift">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/butt-1.jpg" alt="Butt Lift" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/butt-1.jpg" alt="Butt Lift" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
@@ -132,7 +132,7 @@ const TopCourses = () => {
             <Link to="/treatments/face-lift-surgery-rhytidectomy">
               <div className="course-one__single">
                 <div className="treatment-one__image">
-                  <StaticImage loading="eager" placeholder="none" src="../../static/img/treatments/face-lift.jpg" alt="Face Lift" layout="fullWidth" />
+                  <StaticImage placeholder="none" src="../../static/img/treatments/face-lift.jpg" alt="Face Lift" layout="fullWidth" />
                 </div>
                 <div className="treatment-one__content">
                   <span className="treatment-one__category">
