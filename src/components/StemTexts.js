@@ -102,12 +102,12 @@ const StemTexts = () => {
                 </p>
                 <br />
                 <p>
-                  <b>All Stem cell-based therapies, except FDA approved, are experimental!</b>
+                  <b>All Stem cell-based therapies, except FDA-Approved, are experimental!</b>
                 </p>
 
                 <p>
                   Long-term clinical trials are needed to make sure these treatments are safe and beneficial. 
-                  A treatment can be considered an approved treatment only if its results have been observed for a sufficient period of time if it meets the requirements. The safety, effectiveness, and superiority of a proposed treatment must be proven through clinical trials before it can be implemented.
+                  A treatment can be considered an approved treatment only if its results have been observed for a sufficient time and if it meets the requirements. The safety, effectiveness, and superiority of a proposed treatment must be proven through clinical trials before it can be implemented.
                 </p>
 
                 <p>
@@ -119,12 +119,33 @@ const StemTexts = () => {
                 <p className="blog-one__text"><b>Some of these treatments are;</b></p>
                 <ul>
                   <li>Spinal Cord Injury</li>
-                  <li>Neurological conditions, such as Parkinson’s disease, Huntingdons disease and Motor Neuron Disease</li>
+                  <li>Autism</li>
+                  <li>Knee Injuries and Osteoarthritis</li>
+                  <li>Oligospermia</li>
+                  <li>Parkinson’s disease</li>
+                  <li>Infertility</li>
+                  <li>Impotence</li>
                   <li>Diabetes</li>
+                  <li>Alzheimer's disease</li>
+                  <li>COPD disease</li>
+                  <li>MS(Multiple Sclerosis)</li>
+                  <li>Cerebral Palsy</li>
+                  <li>ALS</li>
+                  <li>Ulcerative Colitis</li>
+                  <li>Heart Diseases</li>
+                  <li>Dementia</li>
+                  <li>Orthopedic diseases</li>
+                  <li>Tooth and gum diseases</li>
+                  <li>Autoimmune Diseases</li>
+                  <li>Muscular Dystrophy</li>
+                  <li>Facial Stem Cell Treatment</li>
                   <li>Myocardial infarction</li>
-                  <li>Multiple sclerosis therapy using blood stem cells</li>
                   <li>Leukaemia studies</li>
                   <li>Cartilage or tendon injuries</li>
+                  <li>Cirrhosis</li>
+                  <li>Lupus Erythematosus</li>
+                  <li>Rejuvenation with Stem Cells</li>
+                  <li>Cerebral Ataxia</li>
                 </ul>
               </div>
             </div>
