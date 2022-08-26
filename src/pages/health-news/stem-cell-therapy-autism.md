@@ -8,8 +8,7 @@ description: In this article, topics such as the definition, types and symptoms
 featuredpost: false
 featuredimage: /img/little-kid-playing-indoors.jpg
 tags:
-  - Stem Cell
-  - Autism
+  - Stem Cell for Autism
 ---
 ## **What is Autism?**
 
