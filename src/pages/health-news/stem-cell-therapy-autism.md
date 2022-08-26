@@ -73,6 +73,8 @@ Therapy is the main treatment for autism. Treatment includes working with a ther
 
 There are many strategies aimed at reducing the symptoms of individuals with autism and increasing their potential.
 
+
+
 According to the [NIH](https://www.nichd.nih.gov/health/topics/autism/conditioninfo/treatments), some of these strategies:
 
 * Cognitive behavior therapy
@@ -122,6 +124,8 @@ The **regenerative and immunomodulatory features of stem cell** receive attentio
 **This [study](https://pubmed.ncbi.nlm.nih.gov/20525442/)** highlight one of very important aspects of MSC therapy;\
 **Mesenchymal stem cells (MSCs)** have the ability to modulate T-cell-mediated immunological responses. This suggests that MSCs could be used to treat certain **autoimmune diseases**.
 
+
+
 #### Can stem cell be used to reduce inflammation?
 
 Many research show that stem cells can significantly reduce **inflammation** in the body. \
@@ -136,13 +140,15 @@ When we search for **autism AND stem cells**,  **[28 research results](https://c
 
 Since we will not be able to review all studies in this article, we will review a meta-analysis report. Meta-analysis is the examination of many research results on the same subject as if they were a single study. In this study, 5 studies on **stem cell for autism** were selected. You can think of meta-analysis as a summary of these 5 studies.
 
-**Research Link: <https://www.frontiersin.org/articles/10.3389/fped.2022.897398>**
+**Research Link: [https://www.frontiersin.org/articles/10.3389/fped.2022.897398](https://www.frontiersin.org/articles/10.3389/fped.2022.897398/full#B15)**
 
-**In this study**, the results of 5 studies were examined together and the **Efficacy and Safety of Stem Cell Therapy in Children with Autism Spectrum Disorder** was investigated.
+[In this study](https://www.frontiersin.org/articles/10.3389/fped.2022.897398/full#B15), the results of 5 studies were examined together and the **Efficacy and Safety of Stem Cell Therapy in Children with Autism Spectrum Disorder** was investigated.
 
 **Aim:** To find new evidence regarding the efficacy and safety of stem cell therapy in children with autism spectrum disorders.
 
 **Methods:** Studies selected from PubMed/Medline, Web of Science, EMBASE, Cochrane Library, and China Academic Journal resources up to 24th JULY 2021. Studies with a risk of bias were excluded from the list using the Cochrane tool.
+
+
 
 **The following 5 research results were analyzed together;**
 
@@ -156,9 +162,15 @@ Since we will not be able to review all studies in this article, we will review 
 
 > **"Conclusion:** The results of this meta-analysis suggested that stem cell therapy for children with autism might be safe and effective. However, the evidence was compromised by the limitations in current study size, lacking standardized injection routes and doses of stem cells, as well as shortages in diagnostic tools and long period follow-up studies. Hence, it calls for more studies to systematically confirm the efficacy and safety of stem cell therapy for children with autism spectrum disorders."(2)
 
-**NOTE: This article is for informational purposes only. It is not treatment advice!**
+
+
+**NOTE: This article is for informational purposes only. It does not include treatment advice!**
+
+
 
 ## References
+
+
 
 1. Irene Tsilioni, Arti B. Patel, Harry Pantazopoulos, Sabina Berretta, Pio Conti, Susan E. Leeman, Theoharis C. Theoharides. IL-37 is increased in brains of children with autism spectrum disorder and inhibits human microglia stimulated by neurotensin. Proceedings of the National Academy of Sciences Oct 2019, 116 (43) 21659-21665; DOI: 10.1073/pnas.1906817116 <https://www.pnas.org/content/116/43/21659>
 2. Jiayang Qu, Zicai Liu, Lincai Li, Zhengwei Zou, Zhengyi He, Lin Zhou, Yaolin Luo, Minhong Zhang, Junsong Ye. Efficacy and Safety of Stem Cell Therapy in Children With Autism Spectrum Disorders: A Systematic Review and Meta-Analysis. DOI: 10.3389/fped.2022.897398 <https://www.frontiersin.org/articles/10.3389/fped.2022.897398>
