@@ -164,7 +164,7 @@ Since we will not be able to review all studies in this article, we will review 
 
 
 
-**NOTE: This article is for informational purposes only. It does not include treatment advice!**
+**NOTE: This article is for informational purposes only. It is not treatment advice!**
 
 
 
