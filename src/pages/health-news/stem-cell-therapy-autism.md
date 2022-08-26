@@ -140,9 +140,9 @@ When we search for **autism AND stem cells**,  **[28 research results](https://c
 
 Since we will not be able to review all studies in this article, we will review a meta-analysis report. Meta-analysis is the examination of many research results on the same subject as if they were a single study. In this study, 5 studies on **stem cell for autism** were selected. You can think of meta-analysis as a summary of these 5 studies.
 
-**Research Link: [https://www.frontiersin.org/articles/10.3389/fped.2022.897398](https://www.frontiersin.org/articles/10.3389/fped.2022.897398/full#B15)**
+**Research Link: [https://www.frontiersin.org/articles/10.3389/fped.2022.897398](https://www.frontiersin.org/articles/10.3389/fped.2022.897398)**
 
-[In this study](https://www.frontiersin.org/articles/10.3389/fped.2022.897398/full#B15), the results of 5 studies were examined together and the **Efficacy and Safety of Stem Cell Therapy in Children with Autism Spectrum Disorder** was investigated.
+**[In this study](https://www.frontiersin.org/articles/10.3389/fped.2022.897398)**, the results of 5 studies were examined together and the **Efficacy and Safety of Stem Cell Therapy in Children with Autism Spectrum Disorder** was investigated.
 
 **Aim:** To find new evidence regarding the efficacy and safety of stem cell therapy in children with autism spectrum disorders.
 

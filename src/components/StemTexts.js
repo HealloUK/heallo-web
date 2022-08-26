@@ -119,7 +119,7 @@ const StemTexts = () => {
                 <p className="blog-one__text"><b>Some of these treatments are;</b></p>
                 <ul>
                   <li>Spinal Cord Injury</li>
-                  <li>Autism</li>
+                  <li><a href="https://heallo.co.uk/health-news/stem-cell-therapy-autism/" target="_blank">Autism</a></li>
                   <li>Knee Injuries and Osteoarthritis</li>
                   <li>Oligospermia</li>
                   <li>Parkinson’s disease</li>
