@@ -4899,6 +4899,14 @@ a:visited {
   font-weight: 500;
   margin: 0 0 30px
 }
+.blog-details blockquote {
+  border-left: 4px solid #7c4bc0;
+  background: #f7f2f2;
+  padding: 15px;
+}
+.blog-details blockquote p {
+  margin: 0 0 0px;
+}
 .blog-details li {
   color: #55595b;
 }
