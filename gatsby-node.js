@@ -57,7 +57,7 @@ exports.createPages = ({ actions, graphql }) => {
     const numPages = Math.ceil(blogPosts.length / postsPerPage)
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `/health-news` : `/health-news/${i + 1}`,
+        path: i === 0 ? `/health-news/` : `/health-news/${i + 1}`,
         component: path.resolve("./src/templates/health-news-page.js"),
         context: {
           id,

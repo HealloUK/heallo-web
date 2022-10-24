@@ -4,6 +4,7 @@ module.exports = {
     description: "We design your perfect medical journey in Turkey",
     siteUrl: "https://heallo.co.uk",
   },
+  trailingSlash: "always",
   plugins: [
     "gatsby-plugin-react-helmet",
     {
