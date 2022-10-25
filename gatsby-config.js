@@ -83,17 +83,6 @@ module.exports = {
     }, // must be after other CSS plugins
     "gatsby-plugin-netlify", // make sure to keep it last in the array
     {
-      resolve: "gatsby-plugin-advanced-sitemap",
-      options: {
-        exclude: [
-          "/admin",
-          "/contact/thanks",
-          "/404",
-          "/404.html",
-        ]
-      }
-    },
-    {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
         siteUrl: "https://heallo.co.uk",
@@ -104,7 +93,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "",
-        sitemap: 'https://heallo.co.uk/sitemap-pages.xml',
+        sitemap: 'https://heallo.co.uk/sitemap/sitemap-0.xml',
         policy: [{userAgent: '*', disallow: ['/admin']}]
       }
     },
