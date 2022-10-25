@@ -115,6 +115,17 @@ module.exports = {
         enableWebVitalsTracking: true,
         includeInDevelopment: true
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [
+          "/admin",
+          "/contact/thanks/",
+          "/404",
+          "/404.html",
+        ]
+      }
+    },
   ],
 };
