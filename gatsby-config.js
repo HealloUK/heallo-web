@@ -81,7 +81,6 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
@@ -130,6 +129,17 @@ module.exports = {
         },
         // More options defined here https://purgecss.com/configuration.html#options
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria
+        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        mergeCachingHeaders: true, // boolean to turn off the default caching headers
+        transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
+        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+      },
+    }, // make sure to keep it last in the array
   ],
 };
