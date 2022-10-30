@@ -1,16 +1,13 @@
 import React from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
-import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import Courses from "../components/Courses";
+import Seo from '../components/Seo';
 
 const CoursesPage = () => {
     return (
-        <Layout 
-            pageTitle="Aesthetic Treatments in Turkey"
-            description="Our skilled surgeons offers a wide range of procedures, including rhinoplasty, tummy tuck, bbl, liposuction, facelift, and breast surgery with affordable prices."
-        >
+        <Layout>
             <NavOne />
             <Courses />
             <Footer />
@@ -19,3 +16,9 @@ const CoursesPage = () => {
 };
 
 export default CoursesPage;
+
+export const Head = ({location}) => <Seo 
+                            title="Aesthetic Treatments in Turkey"
+                            description="Our skilled surgeons offers a wide range of procedures, including rhinoplasty, tummy tuck, bbl, liposuction, facelift, and breast surgery with affordable prices."
+                            location={location.pathname}
+                          />

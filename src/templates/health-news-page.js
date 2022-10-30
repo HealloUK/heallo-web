@@ -5,16 +5,14 @@ import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import News from "../components/News";
 import { graphql } from "gatsby";
+import Seo from '../components/Seo';
 
 const NewsPage = ({ pageContext, data }) => {
     
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <Layout
-        pageTitle="Health News"
-        description="Check out latest news about the aesthetic treatments and medical tourism."
-      >
+      <Layout>
             <NavOne />
             {/*<PageHeader title="News" />*/}
             <News posts= { posts } pageContext= {pageContext}/>
@@ -61,3 +59,9 @@ query NewsPageQuery($skip: Int!, $limit: Int!) {
   }
 }
 `;
+
+export const Head = ({location}) => <Seo 
+                            title="Health News"
+                            description="Check out latest news about the aesthetic treatments and medical tourism."
+                            location={location.pathname}
+                          />

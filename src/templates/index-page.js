@@ -7,13 +7,11 @@ import TopCourses from "../components/TopCourses";
 import BlogThree from "../components/BlogThree";
 import CourseCatOne from "../components/CourseCatOne";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 
 
 const HomePage = () => (
-  <Layout 
-    pageTitle="We design your perfect medical journey in Turkey"
-    description="We have a wide range of aesthetic treatments including bariatric surgery, hair transplant and dental for you to choose from-all at an affordable price in Turkey."
-  >
+  <Layout>
     <TopbarOnlyText />
     <NavOne />
     <AboutTwo />
@@ -25,3 +23,9 @@ const HomePage = () => (
 );
 
 export default HomePage;
+
+export const Head = ({location}) => <Seo 
+                            title="We design your perfect medical journey in Turkey"
+                            description="We have a wide range of aesthetic treatments including bariatric surgery, hair transplant and dental for you to choose from-all at an affordable price in Turkey."
+                            location={location.pathname}
+                          />

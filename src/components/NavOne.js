@@ -75,7 +75,7 @@ class NavOne extends Component {
                 <StaticImage
                   src="../../static/img/logo-dark-2.png"
                   className="main-logo"
-                  width="128"
+                  width={128}
                   alt="Heallo Health Tourism"
                   placeholder="none"
                 />
