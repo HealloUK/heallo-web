@@ -53,6 +53,6 @@ export const treatmentDetailPageQuery = graphql`
 export const Head = ({location, data}) => <Seo 
                             title={data.markdownRemark.frontmatter.title}
                             description={data.markdownRemark.frontmatter.description.substr(0, data.markdownRemark.frontmatter.description.indexOf(".")) + "..."}
-                            image={getSrc(data.markdownRemark.frontmatter.image) || data.markdownRemark.frontmatter.image}
+                            image= {`https://heallo.co.uk/${getSrc(data.markdownRemark.frontmatter.image) || data.markdownRemark.frontmatter.image}`}
                             location={location.pathname}
                           />
